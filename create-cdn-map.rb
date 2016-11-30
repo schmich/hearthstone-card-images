@@ -22,6 +22,8 @@ Dir['**/*.png'].each do |file|
     rev: rev,
     path: path,
     url: url,
+    short_rev: short_rev,
+    short_path: short_path,
     short_url: short_url
   }
 end
