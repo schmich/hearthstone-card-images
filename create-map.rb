@@ -28,6 +28,6 @@ Dir['**/*.png'].each do |file|
   }
 end
 
-open('cdn-map.json', 'w') do |w|
+open('map.json', 'w') do |w|
   w.write(JSON.pretty_generate(cards))
 end
