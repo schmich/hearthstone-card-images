@@ -1314,6 +1314,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/AT_132_DRUID.png"
   },
   {
+    "id": "AT_132_MAGE",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/AT_132_MAGE.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/AT_132_MAGE.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/AT_132_MAGE.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/AT_132_MAGE.png"
+  },
+  {
     "id": "AT_132_PALADIN",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/AT_132_PALADIN.png",
@@ -1737,6 +1746,24 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRM_034.png"
   },
   {
+    "id": "BRMA01_1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA01_1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA01_1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA01_1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA01_1.png"
+  },
+  {
+    "id": "BRMA01_2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA01_2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA01_2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA01_2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA01_2.png"
+  },
+  {
     "id": "BRMA01_2H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA01_2H.png",
@@ -1791,6 +1818,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA02_2_2_TB.png"
   },
   {
+    "id": "BRMA02_2_2c_TB",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA02_2_2c_TB.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA02_2_2c_TB.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA02_2_2c_TB.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA02_2_2c_TB.png"
+  },
+  {
     "id": "BRMA02_2t",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA02_2t.png",
@@ -1807,6 +1843,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA03_2.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA03_2.png"
+  },
+  {
+    "id": "BRMA03_3",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA03_3.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA03_3.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA03_3.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA03_3.png"
   },
   {
     "id": "BRMA03_3H",
@@ -1854,6 +1899,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA04_3.png"
   },
   {
+    "id": "BRMA04_3H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA04_3H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA04_3H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA04_3H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA04_3H.png"
+  },
+  {
     "id": "BRMA04_4",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA04_4.png",
@@ -1861,6 +1915,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA04_4.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA04_4.png"
+  },
+  {
+    "id": "BRMA04_4H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA04_4H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA04_4H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA04_4H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA04_4H.png"
   },
   {
     "id": "BRMA05_1",
@@ -1881,6 +1944,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA05_2.png"
   },
   {
+    "id": "BRMA05_2H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA05_2H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA05_2H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA05_2H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA05_2H.png"
+  },
+  {
     "id": "BRMA05_3e",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA05_3e.png",
@@ -1897,6 +1969,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA06_2.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA06_2.png"
+  },
+  {
+    "id": "BRMA06_2H_TB",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA06_2H_TB.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA06_2H_TB.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA06_2H_TB.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA06_2H_TB.png"
   },
   {
     "id": "BRMA06_3",
@@ -1917,6 +1998,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA06_4.png"
   },
   {
+    "id": "BRMA06_4H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA06_4H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA06_4H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA06_4H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA06_4H.png"
+  },
+  {
     "id": "BRMA07_1H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA07_1H.png",
@@ -1933,6 +2023,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA07_2.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA07_2.png"
+  },
+  {
+    "id": "BRMA07_2_2c_TB",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA07_2_2c_TB.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA07_2_2c_TB.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA07_2_2c_TB.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA07_2_2c_TB.png"
   },
   {
     "id": "BRMA07_3",
@@ -1953,6 +2052,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA08_1.png"
   },
   {
+    "id": "BRMA08_1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA08_1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA08_1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA08_1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA08_1H.png"
+  },
+  {
     "id": "BRMA08_2",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA08_2.png",
@@ -1960,6 +2068,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA08_2.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA08_2.png"
+  },
+  {
+    "id": "BRMA08_2H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA08_2H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA08_2H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA08_2H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA08_2H.png"
   },
   {
     "id": "BRMA08_3",
@@ -1989,6 +2106,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA09_2.png"
   },
   {
+    "id": "BRMA09_2Ht",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_2Ht.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_2Ht.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA09_2Ht.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA09_2Ht.png"
+  },
+  {
     "id": "BRMA09_3H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA09_3H.png",
@@ -2007,6 +2133,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA09_3Ht.png"
   },
   {
+    "id": "BRMA09_4",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_4.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_4.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA09_4.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA09_4.png"
+  },
+  {
     "id": "BRMA09_4H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA09_4H.png",
@@ -2014,6 +2149,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA09_4H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA09_4H.png"
+  },
+  {
+    "id": "BRMA09_4Ht",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_4Ht.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_4Ht.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA09_4Ht.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA09_4Ht.png"
   },
   {
     "id": "BRMA09_4t",
@@ -2032,6 +2176,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA09_5.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA09_5.png"
+  },
+  {
+    "id": "BRMA09_5H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_5H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA09_5H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA09_5H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA09_5H.png"
   },
   {
     "id": "BRMA09_5Ht",
@@ -2115,6 +2268,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA11_1.png"
   },
   {
+    "id": "BRMA11_1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA11_1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA11_1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA11_1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA11_1H.png"
+  },
+  {
     "id": "BRMA11_2",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA11_2.png",
@@ -2167,6 +2329,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA12_4.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA12_4.png"
+  },
+  {
+    "id": "BRMA12_4H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA12_4H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA12_4H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA12_4H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA12_4H.png"
   },
   {
     "id": "BRMA12_5",
@@ -2223,6 +2394,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA13_1.png"
   },
   {
+    "id": "BRMA13_1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA13_1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA13_1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA13_1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA13_1H.png"
+  },
+  {
     "id": "BRMA13_2",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA13_2.png",
@@ -2230,6 +2410,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA13_2.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA13_2.png"
+  },
+  {
+    "id": "BRMA13_4_2_TB",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA13_4_2_TB.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA13_4_2_TB.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA13_4_2_TB.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA13_4_2_TB.png"
   },
   {
     "id": "BRMA13_4H",
@@ -2268,6 +2457,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA14_1.png"
   },
   {
+    "id": "BRMA14_10",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_10.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_10.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA14_10.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA14_10.png"
+  },
+  {
     "id": "BRMA14_10H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA14_10H.png",
@@ -2295,6 +2493,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA14_12.png"
   },
   {
+    "id": "BRMA14_1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA14_1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA14_1H.png"
+  },
+  {
     "id": "BRMA14_2",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA14_2.png",
@@ -2313,6 +2520,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA14_3.png"
   },
   {
+    "id": "BRMA14_4",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_4.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_4.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA14_4.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA14_4.png"
+  },
+  {
     "id": "BRMA14_4H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA14_4H.png",
@@ -2323,12 +2539,12 @@
   },
   {
     "id": "BRMA14_5",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA14_5.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA14_5.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/BRMA14_5.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA14_5.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_5.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_5.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA14_5.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA14_5.png"
   },
   {
     "id": "BRMA14_5H",
@@ -2356,6 +2572,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA14_7.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA14_7.png"
+  },
+  {
+    "id": "BRMA14_8",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_8.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA14_8.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA14_8.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA14_8.png"
   },
   {
     "id": "BRMA14_8H",
@@ -2412,6 +2637,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA15_4.png"
   },
   {
+    "id": "BRMA16_1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA16_1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA16_1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA16_1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA16_1H.png"
+  },
+  {
     "id": "BRMA16_2",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA16_2.png",
@@ -2428,6 +2662,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA16_3.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA16_3.png"
+  },
+  {
+    "id": "BRMA16_3e",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA16_3e.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA16_3e.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA16_3e.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA16_3e.png"
   },
   {
     "id": "BRMA16_4",
@@ -2466,6 +2709,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA17_5.png"
   },
   {
+    "id": "BRMA17_5_TB",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA17_5_TB.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA17_5_TB.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA17_5_TB.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA17_5_TB.png"
+  },
+  {
     "id": "BRMA17_6",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/BRMA17_6.png",
@@ -2473,6 +2725,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA17_6.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA17_6.png"
+  },
+  {
+    "id": "BRMA17_6H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA17_6H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMA17_6H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMA17_6H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMA17_6H.png"
   },
   {
     "id": "BRMA17_7",
@@ -2509,6 +2770,24 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMA_01.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMA_01.png"
+  },
+  {
+    "id": "BRMC_100",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_100.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_100.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMC_100.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMC_100.png"
+  },
+  {
+    "id": "BRMC_83",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_83.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_83.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMC_83.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMC_83.png"
   },
   {
     "id": "BRMC_84",
@@ -2563,6 +2842,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMC_89.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMC_89.png"
+  },
+  {
+    "id": "BRMC_90",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_90.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_90.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMC_90.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMC_90.png"
   },
   {
     "id": "BRMC_92",
@@ -2644,6 +2932,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/BRMC_98.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/BRMC_98.png"
+  },
+  {
+    "id": "BRMC_99",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_99.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/BRMC_99.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/BRMC_99.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/BRMC_99.png"
   },
   {
     "id": "BRMC_99e",
@@ -3204,6 +3501,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621.png"
   },
   {
+    "id": "CFM_621_m3",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621_m3.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621_m3.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621_m3.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621_m3.png"
+  },
+  {
     "id": "CFM_621_m4",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621_m4.png",
@@ -3229,6 +3535,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/CFM_621e.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621e.png"
+  },
+  {
+    "id": "CFM_621e2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621e2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621e2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621e2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621e2.png"
   },
   {
     "id": "CFM_621t",
@@ -3267,6 +3582,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621t13.png"
   },
   {
+    "id": "CFM_621t14",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t14.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t14.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621t14.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621t14.png"
+  },
+  {
     "id": "CFM_621t15",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t15.png",
@@ -3274,6 +3598,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/CFM_621t15.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621t15.png"
+  },
+  {
+    "id": "CFM_621t18",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t18.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t18.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621t18.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621t18.png"
   },
   {
     "id": "CFM_621t19",
@@ -3313,12 +3646,12 @@
   },
   {
     "id": "CFM_621t22",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t22.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t22.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/CFM_621t22.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621t22.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t22.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t22.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621t22.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621t22.png"
   },
   {
     "id": "CFM_621t23",
@@ -3340,12 +3673,12 @@
   },
   {
     "id": "CFM_621t26",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t26.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t26.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/CFM_621t26.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621t26.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t26.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t26.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621t26.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621t26.png"
   },
   {
     "id": "CFM_621t27",
@@ -3439,12 +3772,12 @@
   },
   {
     "id": "CFM_621t9",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t9.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CFM_621t9.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/CFM_621t9.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_621t9.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t9.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_621t9.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_621t9.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_621t9.png"
   },
   {
     "id": "CFM_623",
@@ -3868,6 +4201,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/CFM_707.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_707.png"
+  },
+  {
+    "id": "CFM_712_t13",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_712_t13.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CFM_712_t13.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CFM_712_t13.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CFM_712_t13.png"
   },
   {
     "id": "CFM_712_t21",
@@ -4572,6 +4914,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CS2_051.png"
   },
   {
+    "id": "CS2_052",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_052.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_052.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_052.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_052.png"
+  },
+  {
     "id": "CS2_053",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CS2_053.png",
@@ -4869,6 +5220,24 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CS2_101.png"
   },
   {
+    "id": "CS2_101_H1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_101_H1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_101_H1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_101_H1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_101_H1.png"
+  },
+  {
+    "id": "CS2_101_H1_AT_132",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_101_H1_AT_132.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_101_H1_AT_132.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_101_H1_AT_132.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_101_H1_AT_132.png"
+  },
+  {
     "id": "CS2_101t",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CS2_101t.png",
@@ -4885,6 +5254,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/CS2_102.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CS2_102.png"
+  },
+  {
+    "id": "CS2_102_H1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_102_H1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_102_H1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_102_H1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_102_H1.png"
   },
   {
     "id": "CS2_102_H1_AT_132",
@@ -5418,6 +5796,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CS2_237.png"
   },
   {
+    "id": "CS2_boar",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_boar.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_boar.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_boar.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_boar.png"
+  },
+  {
     "id": "CS2_mirror",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CS2_mirror.png",
@@ -5428,12 +5815,12 @@
   },
   {
     "id": "CS2_tk1",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CS2_tk1.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/CS2_tk1.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/CS2_tk1.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CS2_tk1.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_tk1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/CS2_tk1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/CS2_tk1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/CS2_tk1.png"
   },
   {
     "id": "DREAM_01",
@@ -5479,6 +5866,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/DREAM_05.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/DREAM_05.png"
+  },
+  {
+    "id": "DREAM_05e",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/DREAM_05e.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/DREAM_05e.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/DREAM_05e.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/DREAM_05e.png"
   },
   {
     "id": "DS1_055",
@@ -5569,6 +5965,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/DS1h_292.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/DS1h_292.png"
+  },
+  {
+    "id": "DS1h_292_H1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/DS1h_292_H1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/DS1h_292_H1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/DS1h_292_H1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/DS1h_292_H1.png"
   },
   {
     "id": "DS1h_292_H1_AT_132",
@@ -5686,6 +6091,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/EX1_014.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/EX1_014.png"
+  },
+  {
+    "id": "EX1_014t",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_014t.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_014t.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/EX1_014t.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/EX1_014t.png"
   },
   {
     "id": "EX1_014te",
@@ -6336,6 +6750,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/EX1_160a.png"
   },
   {
+    "id": "EX1_160b",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_160b.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_160b.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/EX1_160b.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/EX1_160b.png"
+  },
+  {
     "id": "EX1_160be",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/EX1_160be.png",
@@ -6487,6 +6910,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/EX1_178a.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/EX1_178a.png"
+  },
+  {
+    "id": "EX1_178ae",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_178ae.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_178ae.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/EX1_178ae.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/EX1_178ae.png"
   },
   {
     "id": "EX1_178b",
@@ -8046,6 +8478,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/EX1_tk34.png"
   },
   {
+    "id": "EX1_tk9",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_tk9.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/EX1_tk9.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/EX1_tk9.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/EX1_tk9.png"
+  },
+  {
     "id": "FP1_001",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/FP1_001.png",
@@ -8368,6 +8809,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/GAME_002.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/GAME_002.png"
+  },
+  {
+    "id": "GAME_005",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/GAME_005.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/GAME_005.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/GAME_005.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/GAME_005.png"
   },
   {
     "id": "GAME_005e",
@@ -8701,6 +9151,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/GVG_030b.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/GVG_030b.png"
+  },
+  {
+    "id": "GVG_030be",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/GVG_030be.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/GVG_030be.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/GVG_030be.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/GVG_030be.png"
   },
   {
     "id": "GVG_031",
@@ -9775,12 +10234,12 @@
   },
   {
     "id": "HRW02_1",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/HRW02_1.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/HRW02_1.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/HRW02_1.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/HRW02_1.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/HRW02_1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/HRW02_1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/HRW02_1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/HRW02_1.png"
   },
   {
     "id": "KAR_003a",
@@ -10314,6 +10773,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_712.png"
   },
   {
+    "id": "KAR_A01_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A01_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A01_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_A01_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_A01_01.png"
+  },
+  {
     "id": "KAR_A01_01H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KAR_A01_01H.png",
@@ -10323,6 +10791,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_A01_01H.png"
   },
   {
+    "id": "KAR_A01_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A01_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A01_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_A01_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_A01_02.png"
+  },
+  {
     "id": "KAR_A01_02H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KAR_A01_02H.png",
@@ -10330,6 +10807,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KAR_A01_02H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_A01_02H.png"
+  },
+  {
+    "id": "KAR_A02_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_A02_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_A02_01.png"
   },
   {
     "id": "KAR_A02_01H",
@@ -10348,6 +10834,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KAR_A02_02.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_A02_02.png"
+  },
+  {
+    "id": "KAR_A02_02H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_02H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_02H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_A02_02H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_A02_02H.png"
   },
   {
     "id": "KAR_A02_03",
@@ -10420,6 +10915,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KAR_A02_12H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_A02_12H.png"
+  },
+  {
+    "id": "KAR_A02_13",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_13.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_A02_13.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_A02_13.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_A02_13.png"
   },
   {
     "id": "KAR_A02_13H",
@@ -10537,6 +11041,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KAR_A10_33.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_A10_33.png"
+  },
+  {
+    "id": "KAR_a10_Boss1H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_a10_Boss1H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KAR_a10_Boss1H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KAR_a10_Boss1H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KAR_a10_Boss1H.png"
   },
   {
     "id": "KAR_a10_Boss1H_TB22",
@@ -10665,6 +11178,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_04_01h.png"
   },
   {
+    "id": "KARA_04_01heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_04_01heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_04_01heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_04_01heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_04_01heroic.png"
+  },
+  {
     "id": "KARA_04_02hp",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_04_02hp.png",
@@ -10690,6 +11212,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_05_01b.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_05_01b.png"
+  },
+  {
+    "id": "KARA_05_01h",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_05_01h.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_05_01h.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_05_01h.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_05_01h.png"
   },
   {
     "id": "KARA_05_01hp",
@@ -10728,6 +11259,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_06_02.png"
   },
   {
+    "id": "KARA_06_03hp",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_06_03hp.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_06_03hp.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_06_03hp.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_06_03hp.png"
+  },
+  {
     "id": "KARA_06_03hpheroic",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_06_03hpheroic.png",
@@ -10735,6 +11275,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_06_03hpheroic.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_06_03hpheroic.png"
+  },
+  {
+    "id": "KARA_07_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_07_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_07_01.png"
   },
   {
     "id": "KARA_07_02",
@@ -10773,6 +11322,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_07_05.png"
   },
   {
+    "id": "KARA_07_05heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_05heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_05heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_07_05heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_07_05heroic.png"
+  },
+  {
     "id": "KARA_07_06",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_07_06.png",
@@ -10780,6 +11338,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_07_06.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_07_06.png"
+  },
+  {
+    "id": "KARA_07_06heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_06heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_06heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_07_06heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_07_06heroic.png"
   },
   {
     "id": "KARA_07_07",
@@ -10800,6 +11367,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_07_08.png"
   },
   {
+    "id": "KARA_07_08heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_08heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_07_08heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_07_08heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_07_08heroic.png"
+  },
+  {
     "id": "KARA_08_01",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_08_01.png",
@@ -10818,6 +11394,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_08_02.png"
   },
   {
+    "id": "KARA_08_02eH",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_08_02eH.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_08_02eH.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_08_02eH.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_08_02eH.png"
+  },
+  {
     "id": "KARA_08_03e",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_08_03e.png",
@@ -10825,6 +11410,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_08_03e.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_08_03e.png"
+  },
+  {
+    "id": "KARA_08_03H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_08_03H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_08_03H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_08_03H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_08_03H.png"
   },
   {
     "id": "KARA_08_05",
@@ -10881,6 +11475,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_09_03a.png"
   },
   {
+    "id": "KARA_09_03a_heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_03a_heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_03a_heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_09_03a_heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_09_03a_heroic.png"
+  },
+  {
     "id": "KARA_09_03heroic",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_09_03heroic.png",
@@ -10899,6 +11502,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_09_04.png"
   },
   {
+    "id": "KARA_09_05",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_05.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_05.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_09_05.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_09_05.png"
+  },
+  {
     "id": "KARA_09_05heroic",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_09_05heroic.png",
@@ -10915,6 +11527,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_09_06.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_09_06.png"
+  },
+  {
+    "id": "KARA_09_07",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_07.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_09_07.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_09_07.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_09_07.png"
   },
   {
     "id": "KARA_09_07heroic",
@@ -10944,6 +11565,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_11_01.png"
   },
   {
+    "id": "KARA_11_01heroic",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_11_01heroic.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_11_01heroic.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_11_01heroic.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_11_01heroic.png"
+  },
+  {
     "id": "KARA_11_02",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_11_02.png",
@@ -10962,6 +11592,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_12_01.png"
   },
   {
+    "id": "KARA_12_01H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_01H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_01H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_12_01H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_12_01H.png"
+  },
+  {
     "id": "KARA_12_02",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_12_02.png",
@@ -10971,6 +11610,24 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_12_02.png"
   },
   {
+    "id": "KARA_12_02H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_02H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_02H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_12_02H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_12_02H.png"
+  },
+  {
+    "id": "KARA_12_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_12_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_12_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_12_03.png"
+  },
+  {
     "id": "KARA_12_03H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_12_03H.png",
@@ -10978,6 +11635,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_12_03H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_12_03H.png"
+  },
+  {
+    "id": "KARA_13_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_13_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_13_01.png"
   },
   {
     "id": "KARA_13_01H",
@@ -11007,6 +11673,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_13_03.png"
   },
   {
+    "id": "KARA_13_03H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_03H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_03H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_13_03H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_13_03H.png"
+  },
+  {
     "id": "KARA_13_11",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_13_11.png",
@@ -11032,6 +11707,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_13_13.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_13_13.png"
+  },
+  {
+    "id": "KARA_13_13H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_13H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_13H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_13_13H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_13_13H.png"
   },
   {
     "id": "KARA_13_15",
@@ -11070,6 +11754,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_13_19.png"
   },
   {
+    "id": "KARA_13_20",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_20.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_20.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_13_20.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_13_20.png"
+  },
+  {
     "id": "KARA_13_22",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/KARA_13_22.png",
@@ -11077,6 +11770,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/KARA_13_22.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KARA_13_22.png"
+  },
+  {
+    "id": "KARA_13_23",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_23.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/KARA_13_23.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/KARA_13_23.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/KARA_13_23.png"
   },
   {
     "id": "LOE_002",
@@ -11619,6 +12321,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA01_02.png"
   },
   {
+    "id": "LOEA01_02h",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA01_02h.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA01_02h.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA01_02h.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA01_02h.png"
+  },
+  {
     "id": "LOEA01_11",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA01_11.png",
@@ -11736,6 +12447,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA04_02.png"
   },
   {
+    "id": "LOEA04_02h",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_02h.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_02h.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA04_02h.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA04_02h.png"
+  },
+  {
     "id": "LOEA04_06",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA04_06.png",
@@ -11772,6 +12492,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA04_13bth.png"
   },
   {
+    "id": "LOEA04_23",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_23.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_23.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA04_23.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA04_23.png"
+  },
+  {
     "id": "LOEA04_23h",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA04_23h.png",
@@ -11790,6 +12519,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA04_24.png"
   },
   {
+    "id": "LOEA04_24h",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_24h.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_24h.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA04_24h.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA04_24h.png"
+  },
+  {
     "id": "LOEA04_25h",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA04_25h.png",
@@ -11800,12 +12538,12 @@
   },
   {
     "id": "LOEA04_27",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA04_27.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA04_27.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/LOEA04_27.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA04_27.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_27.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA04_27.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA04_27.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA04_27.png"
   },
   {
     "id": "LOEA04_28",
@@ -11898,6 +12636,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA05_01.png"
   },
   {
+    "id": "LOEA05_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA05_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA05_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA05_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA05_02.png"
+  },
+  {
     "id": "LOEA05_02ha",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA05_02ha.png",
@@ -11916,6 +12663,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA05_03h.png"
   },
   {
+    "id": "LOEA06_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA06_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA06_02.png"
+  },
+  {
     "id": "LOEA06_02h",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA06_02h.png",
@@ -11932,6 +12688,24 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA06_02t.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA06_02t.png"
+  },
+  {
+    "id": "LOEA06_02th",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_02th.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_02th.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA06_02th.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA06_02th.png"
+  },
+  {
+    "id": "LOEA06_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA06_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA06_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA06_03.png"
   },
   {
     "id": "LOEA06_03h",
@@ -12096,6 +12870,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA08_01h.png"
   },
   {
+    "id": "LOEA09_1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA09_1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA09_1.png"
+  },
+  {
     "id": "LOEA09_13",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA09_13.png",
@@ -12150,6 +12933,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA09_4H.png"
   },
   {
+    "id": "LOEA09_5H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_5H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_5H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA09_5H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA09_5H.png"
+  },
+  {
     "id": "LOEA09_6",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA09_6.png",
@@ -12157,6 +12949,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA09_6.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA09_6.png"
+  },
+  {
+    "id": "LOEA09_6H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_6H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_6H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA09_6H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA09_6H.png"
   },
   {
     "id": "LOEA09_7e",
@@ -12168,6 +12969,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA09_7e.png"
   },
   {
+    "id": "LOEA09_7H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_7H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_7H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA09_7H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA09_7H.png"
+  },
+  {
     "id": "LOEA09_8",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA09_8.png",
@@ -12175,6 +12985,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA09_8.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA09_8.png"
+  },
+  {
+    "id": "LOEA09_8H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_8H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA09_8H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA09_8H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA09_8H.png"
   },
   {
     "id": "LOEA09_9",
@@ -12204,6 +13023,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA10_1H.png"
   },
   {
+    "id": "LOEA10_2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA10_2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA10_2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA10_2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA10_2.png"
+  },
+  {
     "id": "LOEA10_2H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA10_2H.png",
@@ -12229,6 +13057,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA10_5.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA10_5.png"
+  },
+  {
+    "id": "LOEA10_5H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA10_5H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA10_5H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA10_5H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA10_5H.png"
   },
   {
     "id": "LOEA12_1H",
@@ -12366,6 +13203,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA16_15.png"
   },
   {
+    "id": "LOEA16_16",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_16.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_16.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA16_16.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA16_16.png"
+  },
+  {
     "id": "LOEA16_16H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/LOEA16_16H.png",
@@ -12382,6 +13228,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA16_17.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA16_17.png"
+  },
+  {
+    "id": "LOEA16_18",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_18.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_18.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA16_18.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA16_18.png"
   },
   {
     "id": "LOEA16_18H",
@@ -12454,6 +13309,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/LOEA16_25H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/LOEA16_25H.png"
+  },
+  {
+    "id": "LOEA16_26",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_26.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/LOEA16_26.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/LOEA16_26.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/LOEA16_26.png"
   },
   {
     "id": "LOEA16_26H",
@@ -12600,6 +13464,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/Mekka4.png"
   },
   {
+    "id": "Mekka4t",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/Mekka4t.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/Mekka4t.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/Mekka4t.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/Mekka4t.png"
+  },
+  {
     "id": "NAX10_01H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX10_01H.png",
@@ -12616,6 +13489,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX10_02H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX10_02H.png"
+  },
+  {
+    "id": "NAX10_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX10_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX10_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX10_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX10_03.png"
   },
   {
     "id": "NAX10_03H",
@@ -12645,6 +13527,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX11_02H.png"
   },
   {
+    "id": "NAX11_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX11_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX11_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX11_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX11_03.png"
+  },
+  {
     "id": "NAX11_04",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX11_04.png",
@@ -12654,6 +13545,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX11_04.png"
   },
   {
+    "id": "NAX12_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX12_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX12_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX12_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX12_01.png"
+  },
+  {
     "id": "NAX12_01H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX12_01H.png",
@@ -12661,6 +13561,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX12_01H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX12_01H.png"
+  },
+  {
+    "id": "NAX12_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX12_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX12_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX12_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX12_02.png"
   },
   {
     "id": "NAX12_02H",
@@ -12699,6 +13608,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX13_01.png"
   },
   {
+    "id": "NAX13_01H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX13_01H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX13_01H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX13_01H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX13_01H.png"
+  },
+  {
     "id": "NAX13_02",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX13_02.png",
@@ -12715,6 +13633,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX13_03.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX13_03.png"
+  },
+  {
+    "id": "NAX14_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX14_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX14_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX14_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX14_01.png"
   },
   {
     "id": "NAX14_02",
@@ -12753,6 +13680,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX15_02.png"
   },
   {
+    "id": "NAX15_02H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX15_02H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX15_02H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX15_02H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX15_02H.png"
+  },
+  {
     "id": "NAX15_03t",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX15_03t.png",
@@ -12769,6 +13705,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX15_04.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX15_04.png"
+  },
+  {
+    "id": "NAX15_04H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX15_04H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX15_04H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX15_04H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX15_04H.png"
   },
   {
     "id": "NAX15_05",
@@ -12789,6 +13734,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX1_01.png"
   },
   {
+    "id": "NAX1_04",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1_04.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1_04.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX1_04.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX1_04.png"
+  },
+  {
     "id": "NAX1_05",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX1_05.png",
@@ -12798,13 +13752,22 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX1_05.png"
   },
   {
+    "id": "NAX1h_01",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1h_01.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1h_01.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX1h_01.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX1h_01.png"
+  },
+  {
     "id": "NAX1h_03",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX1h_03.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX1h_03.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/NAX1h_03.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX1h_03.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1h_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX1h_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX1h_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX1h_03.png"
   },
   {
     "id": "NAX1h_04",
@@ -12834,6 +13797,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX2_03.png"
   },
   {
+    "id": "NAX2_05",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX2_05.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX2_05.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX2_05.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX2_05.png"
+  },
+  {
     "id": "NAX2_05H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX2_05H.png",
@@ -12852,6 +13824,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX3_02_TB.png"
   },
   {
+    "id": "NAX3_02H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX3_02H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX3_02H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX3_02H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX3_02H.png"
+  },
+  {
     "id": "NAX3_03",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX3_03.png",
@@ -12868,6 +13849,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX4_01.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX4_01.png"
+  },
+  {
+    "id": "NAX4_01H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX4_01H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX4_01H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX4_01H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX4_01H.png"
   },
   {
     "id": "NAX4_03H",
@@ -12906,6 +13896,24 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX5_01.png"
   },
   {
+    "id": "NAX5_01H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX5_01H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX5_01H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX5_01H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX5_01H.png"
+  },
+  {
+    "id": "NAX5_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX5_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX5_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX5_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX5_02.png"
+  },
+  {
     "id": "NAX5_02H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX5_02H.png",
@@ -12931,6 +13939,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX6_01H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX6_01H.png"
+  },
+  {
+    "id": "NAX6_02H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX6_02H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX6_02H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX6_02H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX6_02H.png"
   },
   {
     "id": "NAX6_03",
@@ -12970,12 +13987,12 @@
   },
   {
     "id": "NAX7_01H",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX7_01H.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX7_01H.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/NAX7_01H.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX7_01H.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_01H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_01H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX7_01H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX7_01H.png"
   },
   {
     "id": "NAX7_02",
@@ -12985,6 +14002,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX7_02.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX7_02.png"
+  },
+  {
+    "id": "NAX7_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX7_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX7_03.png"
   },
   {
     "id": "NAX7_03H",
@@ -13003,6 +14029,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX7_04.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX7_04.png"
+  },
+  {
+    "id": "NAX7_04H",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_04H.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX7_04H.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX7_04H.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX7_04H.png"
   },
   {
     "id": "NAX7_05",
@@ -13030,6 +14065,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX8_01H.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX8_01H.png"
+  },
+  {
+    "id": "NAX8_02",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX8_02.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX8_02.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX8_02.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX8_02.png"
   },
   {
     "id": "NAX8_02H",
@@ -13122,6 +14166,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX9_02H.png"
   },
   {
+    "id": "NAX9_03",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX9_03.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX9_03.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX9_03.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX9_03.png"
+  },
+  {
     "id": "NAX9_03H",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/NAX9_03H.png",
@@ -13165,6 +14218,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/NAX9_07.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/NAX9_07.png"
+  },
+  {
+    "id": "NAX9_07e",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX9_07e.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/NAX9_07e.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/NAX9_07e.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/NAX9_07e.png"
   },
   {
     "id": "NAXM_001",
@@ -14517,6 +15579,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/OG_249.png"
   },
   {
+    "id": "OG_249a",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/OG_249a.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/OG_249a.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/OG_249a.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/OG_249a.png"
+  },
+  {
     "id": "OG_254",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/OG_254.png",
@@ -14859,6 +15930,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/OG_318.png"
   },
   {
+    "id": "OG_318t",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/OG_318t.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/OG_318t.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/OG_318t.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/OG_318t.png"
+  },
+  {
     "id": "OG_319",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/OG_319.png",
@@ -15003,6 +16083,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/OG_340.png"
   },
   {
+    "id": "PART_001",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/PART_001.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/PART_001.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/PART_001.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/PART_001.png"
+  },
+  {
     "id": "PART_001e",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/PART_001e.png",
@@ -15112,12 +16201,12 @@
   },
   {
     "id": "skele11",
-    "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
-    "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/skele11.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/skele11.png",
-    "short_rev": "f5d6",
-    "short_path": "f5d6/rel/skele11.png",
-    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/skele11.png"
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/skele11.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/skele11.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/skele11.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/skele11.png"
   },
   {
     "id": "skele21",
@@ -15174,6 +16263,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_012.png"
   },
   {
+    "id": "TB_014",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_014.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_014.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_014.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_014.png"
+  },
+  {
     "id": "TB_015",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/TB_015.png",
@@ -15190,6 +16288,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/TB_BlingBrawl_Weapon.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_BlingBrawl_Weapon.png"
+  },
+  {
+    "id": "TB_BRMA01_2H_2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_BRMA01_2H_2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_BRMA01_2H_2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_BRMA01_2H_2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_BRMA01_2H_2.png"
   },
   {
     "id": "TB_ClassRandom_Druid",
@@ -15399,6 +16506,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_CoOpv3_009.png"
   },
   {
+    "id": "TB_Coopv3_009t",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_Coopv3_009t.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_Coopv3_009t.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_Coopv3_009t.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_Coopv3_009t.png"
+  },
+  {
     "id": "TB_CoOpv3_010",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/TB_CoOpv3_010.png",
@@ -15489,6 +16605,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_Coopv3_104.png"
   },
   {
+    "id": "TB_Coopv3_104_NewClasses",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_Coopv3_104_NewClasses.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_Coopv3_104_NewClasses.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_Coopv3_104_NewClasses.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_Coopv3_104_NewClasses.png"
+  },
+  {
     "id": "TB_Coopv3_105",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/TB_Coopv3_105.png",
@@ -15552,6 +16677,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_FactionWar_Hero_Annoy_Update.png"
   },
   {
+    "id": "TB_FactionWar_Rag1",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_FactionWar_Rag1.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_FactionWar_Rag1.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_FactionWar_Rag1.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_FactionWar_Rag1.png"
+  },
+  {
     "id": "TB_FW_Boom",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/TB_FW_Boom.png",
@@ -15586,6 +16720,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/TB_FW_HeroPower_Boom.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_FW_HeroPower_Boom.png"
+  },
+  {
+    "id": "TB_FW_HeroPower_Boom_Update",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_FW_HeroPower_Boom_Update.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_FW_HeroPower_Boom_Update.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_FW_HeroPower_Boom_Update.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_FW_HeroPower_Boom_Update.png"
   },
   {
     "id": "TB_FW_ImbaTron",
@@ -15705,6 +16848,15 @@
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_KTRAF_11.png"
   },
   {
+    "id": "TB_KTRAF_2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_KTRAF_2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_KTRAF_2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_KTRAF_2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_KTRAF_2.png"
+  },
+  {
     "id": "TB_KTRAF_3",
     "rev": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a",
     "path": "f5d639d54ba9c9a7afcc8bf2388442f911c0a32a/rel/TB_KTRAF_3.png",
@@ -15712,6 +16864,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/TB_KTRAF_3.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_KTRAF_3.png"
+  },
+  {
+    "id": "TB_KTRAF_4",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_KTRAF_4.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_KTRAF_4.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_KTRAF_4.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_KTRAF_4.png"
   },
   {
     "id": "TB_KTRAF_4m",
@@ -15793,6 +16954,15 @@
     "short_rev": "f5d6",
     "short_path": "f5d6/rel/TB_MechWar_Boss1_HeroPower.png",
     "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/TB_MechWar_Boss1_HeroPower.png"
+  },
+  {
+    "id": "TB_MechWar_Boss2",
+    "rev": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e",
+    "path": "970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_MechWar_Boss2.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e1bb7513663e3fefdec5baa9e1a43cdbada7e/rel/TB_MechWar_Boss2.png",
+    "short_rev": "970e",
+    "short_path": "970e/rel/TB_MechWar_Boss2.png",
+    "short_url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/970e/rel/TB_MechWar_Boss2.png"
   },
   {
     "id": "TB_MechWar_Boss2_HeroPower",
