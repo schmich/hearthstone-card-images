@@ -9,22 +9,15 @@ end
 
 Dir['**/*.png'].each do |file|
   id = File.basename(file, '.png')
-  rev = `git rev-list master -1 -- #{file}`.strip
+  rev = `git rev-list master -1 -- #{file}`.strip[0...4]
   path = "#{rev}/#{file}"
   url = "https://cdn.rawgit.com/schmich/hearthstone-card-images/#{path}"
-
-  short_rev = rev[0...4]
-  short_path = "#{short_rev}/#{file}"
-  short_url = "https://cdn.rawgit.com/schmich/hearthstone-card-images/#{short_path}"
 
   cards << {
     id: id,
     rev: rev,
     path: path,
-    url: url,
-    short_rev: short_rev,
-    short_path: short_path,
-    short_url: short_url
+    url: url
   }
 end
 
