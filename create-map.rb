@@ -1,24 +1,17 @@
 require 'json'
 
-cards = []
-
-short_revs = `git rev-list master`.lines.map(&:strip).map { |rev| rev[0...4] }
+short_revs = `git rev-list master`.lines.map { |line| line.strip[0...4] }
 if short_revs.length != short_revs.uniq.length
   raise "Short revisions collide, see 'git rev-list master'."
 end
 
-Dir['**/*.png'].each do |file|
+cards = Dir['**/*.png'].map do |file|
   id = File.basename(file, '.png')
   rev = `git rev-list master -1 -- #{file}`.strip[0...4]
   path = "#{rev}/#{file}"
   url = "https://cdn.rawgit.com/schmich/hearthstone-card-images/#{path}"
 
-  cards << {
-    id: id,
-    rev: rev,
-    path: path,
-    url: url
-  }
+  { id: id, rev: rev, path: path, url: url }
 end
 
 open('map.json', 'w') do |w|
