@@ -14,7 +14,7 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 - Released cards are under the [`rel`](rel) folder; pre-release cards are under the [`pre`](pre) folder
 - Not all cards in HearthstoneJSON's [`cards.json`](https://api.hearthstonejson.com/v1/latest/enUS/cards.json) have a corresponding image
 - Currently, only en-US card images are available
-- CDN graciously provided by [RawGit](http://rawgit.com/) and [MaxCDN](http://www.maxcdn.com/)
+- CDN graciously provided by [RawGit](http://rawgit.com/) and [StackPath](https://www.stackpath.com/)
 
 ## License
 
