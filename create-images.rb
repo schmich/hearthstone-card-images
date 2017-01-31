@@ -14,6 +14,6 @@ cards = Dir['**/*.png'].map do |file|
   { id: id, rev: rev, path: path, url: url }
 end
 
-open('map.json', 'w') do |w|
+open('images.json', 'w') do |w|
   w.write(JSON.pretty_generate(cards))
 end
