@@ -16,8 +16,8 @@ You can periodically fetch [`images.json`](images.json) and cache the image URLs
 ```js
 const images = require('hearthstone-card-images');
 
-for (let card of images) {
-  console.log(`${card['id']} -> ${card['url']}`);
+for (const card of images) {
+  console.log(`${card.id} -> ${card.url}`);
 }
 ```
 
