@@ -4,8 +4,27 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 
 ## Usage
 
-- Use [`images.json`](images.json) to map from a Hearthstone card ID to a CDN URL for that card's image
 - [HearthstoneJSON](https://hearthstonejson.com/) makes Hearthstone card info available in [JSON format](https://api.hearthstonejson.com/v1/latest/enUS/cards.json)
+- Use [`images.json`](images.json) to map from a Hearthstone card ID to a CDN URL for that card's image
+
+## Updating Images
+
+You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The images are also published as an NPM package:
+
+`npm install --save hearthstone-card-images`
+
+```js
+const images = require('hearthstone-card-images');
+
+for (let card of images) {
+  console.log(`${card['id']} -> ${card['url']}`);
+}
+```
+
+The package's version adheres to [SemVer 2.0.0](http://semver.org/):
+- The major version changes when the JSON format changes in a breaking way
+- The minor version changes when new cards are added
+- The patch version changes when card images are updated
 
 ## Notes
 
@@ -18,7 +37,7 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 
 ## License
 
-All images and names copyright © Blizzard Entertainment, Inc.
+All card images and names copyright © Blizzard Entertainment, Inc.
 
 All else copyright © 2016 Chris Schmich  
 MIT License. See [LICENSE](LICENSE) for details.
