@@ -21,7 +21,7 @@ for (const card of images) {
 }
 ```
 
-The package's version adheres to [SemVer 2.0.0](http://semver.org/):
+The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.html):
 - The major version changes when the JSON format changes in a breaking way
 - The minor version changes when new cards are added
 - The patch version changes when card images are updated
