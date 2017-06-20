@@ -1,11 +1,16 @@
 require 'json'
+require 'progress_bar'
+
+class Array
+  include ProgressBar::WithProgress
+end
 
 short_revs = `git rev-list master`.lines.map { |line| line.strip[0...4] }
 if short_revs.length != short_revs.uniq.length
   raise "Short revisions collide, see 'git rev-list master'."
 end
 
-cards = Dir['**/*.png'].map do |file|
+cards = Dir['**/*.png'].with_progress.map do |file|
   id = File.basename(file, '.png')
   rev = `git rev-list master -1 -- #{file}`.strip[0...4]
   path = "#{rev}/#{file}"
