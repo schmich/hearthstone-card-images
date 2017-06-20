@@ -4,7 +4,6 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 
 ![](https://cdn.rawgit.com/schmich/hearthstone-card-images/afb4/rel/UNG_015.png)
 ![](https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_073.png)
-![](https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/CFM_631.png)
 
 ## Usage
 
