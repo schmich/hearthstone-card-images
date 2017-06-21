@@ -12,7 +12,7 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 
 ## Updating Images
 
-You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The image map is also published as an NPM package:
+You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The image map is also published as a versioned NPM package:
 
 `npm install --save hearthstone-card-images`
 
