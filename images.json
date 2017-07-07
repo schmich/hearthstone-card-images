@@ -1,5 +1,41 @@
 [
   {
+    "id": "build-a-beast",
+    "rev": "5229",
+    "path": "5229/pre/build-a-beast.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/build-a-beast.png"
+  },
+  {
+    "id": "chillblade-champion",
+    "rev": "5229",
+    "path": "5229/pre/chillblade-champion.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/chillblade-champion.png"
+  },
+  {
+    "id": "deathstalker-rexxar",
+    "rev": "5229",
+    "path": "5229/pre/deathstalker-rexxar.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/deathstalker-rexxar.png"
+  },
+  {
+    "id": "prince-keleseth",
+    "rev": "5229",
+    "path": "5229/pre/prince-keleseth.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/prince-keleseth.png"
+  },
+  {
+    "id": "shallow-gravedigger",
+    "rev": "5229",
+    "path": "5229/pre/shallow-gravedigger.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/shallow-gravedigger.png"
+  },
+  {
+    "id": "spirit-lash",
+    "rev": "5229",
+    "path": "5229/pre/spirit-lash.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/spirit-lash.png"
+  },
+  {
     "id": "AT_001",
     "rev": "f5d6",
     "path": "f5d6/rel/AT_001.png",
