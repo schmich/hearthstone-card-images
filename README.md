@@ -1,4 +1,4 @@
-# Hearthstone Card Images
+# Hearthstone Card Images [![npm](https://img.shields.io/npm/v/hearthstone-card-images.svg)](https://www.npmjs.com/package/hearthstone-card-images)
 
 Hearthstone card images served via CDN for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
 
@@ -12,7 +12,7 @@ Hearthstone card images served via CDN for use in conjunction with [HearthstoneJ
 
 ## Updating Images
 
-You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The image map is also published as a versioned NPM package:
+You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The image map is also published as a [versioned NPM package](https://www.npmjs.com/package/hearthstone-card-images):
 
 `npm install --save hearthstone-card-images`
 
@@ -33,7 +33,8 @@ The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.ht
 
 - The CDN URL points to a permanent, cached image
 - [`images.json`](images.json) is updated with a new CDN URL when a card's image changes
-- Released cards are under the [`rel`](rel) folder; pre-release cards are under the [`pre`](pre) folder
+- Released cards are under the [`rel`](rel) folder; prerelease cards are under the [`pre`](pre) folder
+- For prerelease cards, their name serves as their card ID until they are released
 - Not all cards in HearthstoneJSON's [`cards.json`](https://api.hearthstonejson.com/v1/latest/enUS/cards.json) have a corresponding image
 - Currently, only en-US card images are available
 - CDN graciously provided by [RawGit](http://rawgit.com/) and [StackPath](https://www.stackpath.com/)
