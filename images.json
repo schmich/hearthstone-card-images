@@ -1,5 +1,11 @@
 [
   {
+    "id": "blood-queen-lana-thel",
+    "rev": "778d",
+    "path": "778d/pre/blood-queen-lana-thel.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/blood-queen-lana-thel.png"
+  },
+  {
     "id": "build-a-beast",
     "rev": "5229",
     "path": "5229/pre/build-a-beast.png",
@@ -18,16 +24,16 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/deathstalker-rexxar.png"
   },
   {
-    "id": "frost-axe",
-    "rev": "0daa",
-    "path": "0daa/pre/frost-axe.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/0daa/pre/frost-axe.png"
-  },
-  {
     "id": "frost-lich-jaina",
     "rev": "4146",
     "path": "4146/pre/frost-lich-jaina.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/4146/pre/frost-lich-jaina.png"
+  },
+  {
+    "id": "ice-breaker",
+    "rev": "778d",
+    "path": "778d/pre/ice-breaker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/ice-breaker.png"
   },
   {
     "id": "plague-scientist",
