@@ -18,6 +18,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/deathstalker-rexxar.png"
   },
   {
+    "id": "frost-lich-jaina",
+    "rev": "4146",
+    "path": "4146/pre/frost-lich-jaina.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/4146/pre/frost-lich-jaina.png"
+  },
+  {
     "id": "prince-keleseth",
     "rev": "5229",
     "path": "5229/pre/prince-keleseth.png",
@@ -34,6 +40,12 @@
     "rev": "5229",
     "path": "5229/pre/spirit-lash.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/spirit-lash.png"
+  },
+  {
+    "id": "ticking-abomination",
+    "rev": "4146",
+    "path": "4146/pre/ticking-abomination.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/4146/pre/ticking-abomination.png"
   },
   {
     "id": "AT_001",
