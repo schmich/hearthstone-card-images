@@ -18,6 +18,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/deathstalker-rexxar.png"
   },
   {
+    "id": "frost-axe",
+    "rev": "0daa",
+    "path": "0daa/pre/frost-axe.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/0daa/pre/frost-axe.png"
+  },
+  {
     "id": "frost-lich-jaina",
     "rev": "4146",
     "path": "4146/pre/frost-lich-jaina.png",
