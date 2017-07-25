@@ -6,6 +6,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/blood-queen-lana-thel.png"
   },
   {
+    "id": "blood-razor",
+    "rev": "62dd",
+    "path": "62dd/pre/blood-razor.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/62dd/pre/blood-razor.png"
+  },
+  {
     "id": "build-a-beast",
     "rev": "5229",
     "path": "5229/pre/build-a-beast.png",
@@ -46,6 +52,12 @@
     "rev": "5229",
     "path": "5229/pre/prince-keleseth.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/prince-keleseth.png"
+  },
+  {
+    "id": "prince-taldaram",
+    "rev": "62dd",
+    "path": "62dd/pre/prince-taldaram.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/62dd/pre/prince-taldaram.png"
   },
   {
     "id": "shallow-gravedigger",
