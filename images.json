@@ -42,6 +42,18 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/ice-breaker.png"
   },
   {
+    "id": "mountainfire-armor",
+    "rev": "8f04",
+    "path": "8f04/pre/mountainfire-armor.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/8f04/pre/mountainfire-armor.png"
+  },
+  {
+    "id": "nerubian-unraveler",
+    "rev": "8f04",
+    "path": "8f04/pre/nerubian-unraveler.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/8f04/pre/nerubian-unraveler.png"
+  },
+  {
     "id": "plague-scientist",
     "rev": "bc9c",
     "path": "bc9c/pre/plague-scientist.png",
@@ -58,6 +70,12 @@
     "rev": "62dd",
     "path": "62dd/pre/prince-taldaram.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/62dd/pre/prince-taldaram.png"
+  },
+  {
+    "id": "professor-putricide",
+    "rev": "8f04",
+    "path": "8f04/pre/professor-putricide.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/8f04/pre/professor-putricide.png"
   },
   {
     "id": "shallow-gravedigger",
