@@ -6,6 +6,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/abominable-bowman.png"
   },
   {
+    "id": "animated-berserker",
+    "rev": "1166",
+    "path": "1166/pre/animated-berserker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/animated-berserker.png"
+  },
+  {
     "id": "bearshark",
     "rev": "aa4a",
     "path": "aa4a/pre/bearshark.png",
@@ -36,10 +42,10 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/bonemare.png"
   },
   {
-    "id": "bring-it-on-",
-    "rev": "aa4a",
-    "path": "aa4a/pre/bring-it-on-.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/bring-it-on-.png"
+    "id": "bring-it-on",
+    "rev": "1166",
+    "path": "1166/pre/bring-it-on.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/bring-it-on.png"
   },
   {
     "id": "build-a-beast",
@@ -102,6 +108,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/hadronox.png"
   },
   {
+    "id": "howling-commander",
+    "rev": "1166",
+    "path": "1166/pre/howling-commander.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/howling-commander.png"
+  },
+  {
     "id": "ice-breaker",
     "rev": "778d",
     "path": "778d/pre/ice-breaker.png",
@@ -156,6 +168,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/8f04/pre/professor-putricide.png"
   },
   {
+    "id": "sanguine-reveler",
+    "rev": "1166",
+    "path": "1166/pre/sanguine-reveler.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/sanguine-reveler.png"
+  },
+  {
     "id": "shallow-gravedigger",
     "rev": "5229",
     "path": "5229/pre/shallow-gravedigger.png",
@@ -178,6 +196,12 @@
     "rev": "4146",
     "path": "4146/pre/ticking-abomination.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/4146/pre/ticking-abomination.png"
+  },
+  {
+    "id": "venomstrike-trap",
+    "rev": "1166",
+    "path": "1166/pre/venomstrike-trap.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/venomstrike-trap.png"
   },
   {
     "id": "voodoo-hexxer",
