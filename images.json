@@ -1,15 +1,21 @@
 [
   {
     "id": "abominable-bowman",
-    "rev": "af12",
-    "path": "af12/pre/abominable-bowman.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/abominable-bowman.png"
+    "rev": "cedd",
+    "path": "cedd/pre/abominable-bowman.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/abominable-bowman.png"
   },
   {
     "id": "animated-berserker",
-    "rev": "af12",
-    "path": "af12/pre/animated-berserker.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/animated-berserker.png"
+    "rev": "cedd",
+    "path": "cedd/pre/animated-berserker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/animated-berserker.png"
+  },
+  {
+    "id": "archbishop-benedictus",
+    "rev": "cedd",
+    "path": "cedd/pre/archbishop-benedictus.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/archbishop-benedictus.png"
   },
   {
     "id": "bearshark",
@@ -19,9 +25,9 @@
   },
   {
     "id": "blood-queen-lana-thel",
-    "rev": "778d",
-    "path": "778d/pre/blood-queen-lana-thel.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/blood-queen-lana-thel.png"
+    "rev": "cedd",
+    "path": "cedd/pre/blood-queen-lana-thel.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/blood-queen-lana-thel.png"
   },
   {
     "id": "blood-razor",
@@ -31,21 +37,27 @@
   },
   {
     "id": "bolvar-fireblood",
-    "rev": "af12",
-    "path": "af12/pre/bolvar-fireblood.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/bolvar-fireblood.png"
+    "rev": "cedd",
+    "path": "cedd/pre/bolvar-fireblood.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/bolvar-fireblood.png"
   },
   {
     "id": "bonemare",
-    "rev": "af12",
-    "path": "af12/pre/bonemare.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/bonemare.png"
+    "rev": "cedd",
+    "path": "cedd/pre/bonemare.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/bonemare.png"
   },
   {
     "id": "bring-it-on",
-    "rev": "1166",
-    "path": "1166/pre/bring-it-on.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/bring-it-on.png"
+    "rev": "cedd",
+    "path": "cedd/pre/bring-it-on.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/bring-it-on.png"
+  },
+  {
+    "id": "brrrloc",
+    "rev": "cedd",
+    "path": "cedd/pre/brrrloc.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/brrrloc.png"
   },
   {
     "id": "build-a-beast",
@@ -55,9 +67,15 @@
   },
   {
     "id": "chillblade-champion",
-    "rev": "5229",
-    "path": "5229/pre/chillblade-champion.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/chillblade-champion.png"
+    "rev": "cedd",
+    "path": "cedd/pre/chillblade-champion.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/chillblade-champion.png"
+  },
+  {
+    "id": "cobalt-scalebane",
+    "rev": "cedd",
+    "path": "cedd/pre/cobalt-scalebane.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/cobalt-scalebane.png"
   },
   {
     "id": "coldwraith",
@@ -66,58 +84,100 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/coldwraith.png"
   },
   {
+    "id": "corpse-raiser",
+    "rev": "cedd",
+    "path": "cedd/pre/corpse-raiser.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/corpse-raiser.png"
+  },
+  {
+    "id": "corpse-widow",
+    "rev": "cedd",
+    "path": "cedd/pre/corpse-widow.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/corpse-widow.png"
+  },
+  {
     "id": "corpsetaker",
-    "rev": "af12",
-    "path": "af12/pre/corpsetaker.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/corpsetaker.png"
+    "rev": "cedd",
+    "path": "cedd/pre/corpsetaker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/corpsetaker.png"
   },
   {
     "id": "cryostasis",
-    "rev": "af12",
-    "path": "af12/pre/cryostasis.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/cryostasis.png"
+    "rev": "cedd",
+    "path": "cedd/pre/cryostasis.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/cryostasis.png"
+  },
+  {
+    "id": "crypt-lord",
+    "rev": "cedd",
+    "path": "cedd/pre/crypt-lord.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/crypt-lord.png"
   },
   {
     "id": "dead-man-s-hand",
-    "rev": "af12",
-    "path": "af12/pre/dead-man-s-hand.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/dead-man-s-hand.png"
+    "rev": "cedd",
+    "path": "cedd/pre/dead-man-s-hand.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/dead-man-s-hand.png"
+  },
+  {
+    "id": "death-s-shadow",
+    "rev": "cedd",
+    "path": "cedd/pre/death-s-shadow.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/death-s-shadow.png"
   },
   {
     "id": "deathstalker-rexxar",
-    "rev": "5229",
-    "path": "5229/pre/deathstalker-rexxar.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/deathstalker-rexxar.png"
+    "rev": "cedd",
+    "path": "cedd/pre/deathstalker-rexxar.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/deathstalker-rexxar.png"
   },
   {
     "id": "defile",
-    "rev": "af12",
-    "path": "af12/pre/defile.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/defile.png"
+    "rev": "cedd",
+    "path": "cedd/pre/defile.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/defile.png"
+  },
+  {
+    "id": "desperate-stand",
+    "rev": "cedd",
+    "path": "cedd/pre/desperate-stand.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/desperate-stand.png"
+  },
+  {
+    "id": "devour-mind",
+    "rev": "cedd",
+    "path": "cedd/pre/devour-mind.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/devour-mind.png"
   },
   {
     "id": "doomed-apprentice",
-    "rev": "af12",
-    "path": "af12/pre/doomed-apprentice.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/doomed-apprentice.png"
+    "rev": "cedd",
+    "path": "cedd/pre/doomed-apprentice.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/doomed-apprentice.png"
+  },
+  {
+    "id": "embrace-darkness",
+    "rev": "cedd",
+    "path": "cedd/pre/embrace-darkness.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/embrace-darkness.png"
   },
   {
     "id": "eternal-servitude",
-    "rev": "af12",
-    "path": "af12/pre/eternal-servitude.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/eternal-servitude.png"
+    "rev": "cedd",
+    "path": "cedd/pre/eternal-servitude.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/eternal-servitude.png"
   },
   {
     "id": "fatespinner",
-    "rev": "aa4a",
-    "path": "aa4a/pre/fatespinner.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/fatespinner.png"
+    "rev": "cedd",
+    "path": "cedd/pre/fatespinner.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/fatespinner.png"
   },
   {
     "id": "frost-lich-jaina",
-    "rev": "af12",
-    "path": "af12/pre/frost-lich-jaina.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/frost-lich-jaina.png"
+    "rev": "cedd",
+    "path": "cedd/pre/frost-lich-jaina.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/frost-lich-jaina.png"
   },
   {
     "id": "frozen-champion",
@@ -132,28 +192,52 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/ghastly-conjurer.png"
   },
   {
+    "id": "ghoul",
+    "rev": "cedd",
+    "path": "cedd/pre/ghoul.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ghoul.png"
+  },
+  {
+    "id": "glacial-mysteries",
+    "rev": "cedd",
+    "path": "cedd/pre/glacial-mysteries.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/glacial-mysteries.png"
+  },
+  {
+    "id": "gnomeferatu",
+    "rev": "cedd",
+    "path": "cedd/pre/gnomeferatu.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/gnomeferatu.png"
+  },
+  {
     "id": "hadronox",
-    "rev": "af12",
-    "path": "af12/pre/hadronox.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/hadronox.png"
+    "rev": "cedd",
+    "path": "cedd/pre/hadronox.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/hadronox.png"
   },
   {
     "id": "howling-commander",
-    "rev": "1166",
-    "path": "1166/pre/howling-commander.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/howling-commander.png"
+    "rev": "cedd",
+    "path": "cedd/pre/howling-commander.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/howling-commander.png"
   },
   {
     "id": "ice-breaker",
-    "rev": "778d",
-    "path": "778d/pre/ice-breaker.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/778d/pre/ice-breaker.png"
+    "rev": "cedd",
+    "path": "cedd/pre/ice-breaker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ice-breaker.png"
+  },
+  {
+    "id": "ice-fishing",
+    "rev": "cedd",
+    "path": "cedd/pre/ice-fishing.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ice-fishing.png"
   },
   {
     "id": "ice-walker",
-    "rev": "af12",
-    "path": "af12/pre/ice-walker.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/ice-walker.png"
+    "rev": "cedd",
+    "path": "cedd/pre/ice-walker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ice-walker.png"
   },
   {
     "id": "icy-touch",
@@ -169,33 +253,45 @@
   },
   {
     "id": "light-s-sorrow",
-    "rev": "aa4a",
-    "path": "aa4a/pre/light-s-sorrow.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/aa4a/pre/light-s-sorrow.png"
+    "rev": "cedd",
+    "path": "cedd/pre/light-s-sorrow.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/light-s-sorrow.png"
+  },
+  {
+    "id": "lilian-voss",
+    "rev": "cedd",
+    "path": "cedd/pre/lilian-voss.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/lilian-voss.png"
   },
   {
     "id": "meat-wagon",
-    "rev": "af12",
-    "path": "af12/pre/meat-wagon.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/meat-wagon.png"
+    "rev": "cedd",
+    "path": "cedd/pre/meat-wagon.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/meat-wagon.png"
+  },
+  {
+    "id": "mindbreaker",
+    "rev": "cedd",
+    "path": "cedd/pre/mindbreaker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/mindbreaker.png"
   },
   {
     "id": "moorabi",
-    "rev": "af12",
-    "path": "af12/pre/moorabi.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/moorabi.png"
+    "rev": "cedd",
+    "path": "cedd/pre/moorabi.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/moorabi.png"
   },
   {
     "id": "mountainfire-armor",
-    "rev": "af12",
-    "path": "af12/pre/mountainfire-armor.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/mountainfire-armor.png"
+    "rev": "cedd",
+    "path": "cedd/pre/mountainfire-armor.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/mountainfire-armor.png"
   },
   {
     "id": "necrotic-geist",
-    "rev": "af12",
-    "path": "af12/pre/necrotic-geist.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/necrotic-geist.png"
+    "rev": "cedd",
+    "path": "cedd/pre/necrotic-geist.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/necrotic-geist.png"
   },
   {
     "id": "nerubian-unraveler",
@@ -204,16 +300,28 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/nerubian-unraveler.png"
   },
   {
+    "id": "obsidian-statue",
+    "rev": "cedd",
+    "path": "cedd/pre/obsidian-statue.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/obsidian-statue.png"
+  },
+  {
+    "id": "phantom-freebooter",
+    "rev": "cedd",
+    "path": "cedd/pre/phantom-freebooter.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/phantom-freebooter.png"
+  },
+  {
     "id": "plague-scientist",
-    "rev": "bc9c",
-    "path": "bc9c/pre/plague-scientist.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/bc9c/pre/plague-scientist.png"
+    "rev": "cedd",
+    "path": "cedd/pre/plague-scientist.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/plague-scientist.png"
   },
   {
     "id": "prince-keleseth",
-    "rev": "5229",
-    "path": "5229/pre/prince-keleseth.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/prince-keleseth.png"
+    "rev": "cedd",
+    "path": "cedd/pre/prince-keleseth.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/prince-keleseth.png"
   },
   {
     "id": "prince-taldaram",
@@ -223,9 +331,9 @@
   },
   {
     "id": "prince-valanar",
-    "rev": "af12",
-    "path": "af12/pre/prince-valanar.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/prince-valanar.png"
+    "rev": "cedd",
+    "path": "cedd/pre/prince-valanar.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/prince-valanar.png"
   },
   {
     "id": "professor-putricide",
@@ -234,22 +342,52 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/professor-putricide.png"
   },
   {
+    "id": "righteous-defender",
+    "rev": "cedd",
+    "path": "cedd/pre/righteous-defender.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/righteous-defender.png"
+  },
+  {
+    "id": "runeforge-haunter",
+    "rev": "cedd",
+    "path": "cedd/pre/runeforge-haunter.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/runeforge-haunter.png"
+  },
+  {
     "id": "sanguine-reveler",
-    "rev": "af12",
-    "path": "af12/pre/sanguine-reveler.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/sanguine-reveler.png"
+    "rev": "cedd",
+    "path": "cedd/pre/sanguine-reveler.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/sanguine-reveler.png"
+  },
+  {
+    "id": "shadow-ascendant",
+    "rev": "cedd",
+    "path": "cedd/pre/shadow-ascendant.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/shadow-ascendant.png"
+  },
+  {
+    "id": "shadow-reflection",
+    "rev": "cedd",
+    "path": "cedd/pre/shadow-reflection.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/shadow-reflection.png"
   },
   {
     "id": "shadowblade",
-    "rev": "af12",
-    "path": "af12/pre/shadowblade.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/shadowblade.png"
+    "rev": "cedd",
+    "path": "cedd/pre/shadowblade.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/shadowblade.png"
   },
   {
     "id": "shallow-gravedigger",
-    "rev": "5229",
-    "path": "5229/pre/shallow-gravedigger.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/shallow-gravedigger.png"
+    "rev": "cedd",
+    "path": "cedd/pre/shallow-gravedigger.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/shallow-gravedigger.png"
+  },
+  {
+    "id": "simulacrum",
+    "rev": "cedd",
+    "path": "cedd/pre/simulacrum.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/simulacrum.png"
   },
   {
     "id": "sindragosa",
@@ -258,34 +396,100 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/sindragosa.png"
   },
   {
+    "id": "skulking-geist",
+    "rev": "cedd",
+    "path": "cedd/pre/skulking-geist.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/skulking-geist.png"
+  },
+  {
     "id": "snowflipper-penguin",
-    "rev": "af12",
-    "path": "af12/pre/snowflipper-penguin.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/snowflipper-penguin.png"
+    "rev": "cedd",
+    "path": "cedd/pre/snowflipper-penguin.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/snowflipper-penguin.png"
   },
   {
     "id": "spirit-lash",
-    "rev": "5229",
-    "path": "5229/pre/spirit-lash.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/5229/pre/spirit-lash.png"
+    "rev": "cedd",
+    "path": "cedd/pre/spirit-lash.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/spirit-lash.png"
   },
   {
     "id": "spreading-plague",
-    "rev": "af12",
-    "path": "af12/pre/spreading-plague.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/spreading-plague.png"
+    "rev": "cedd",
+    "path": "cedd/pre/spreading-plague.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/spreading-plague.png"
+  },
+  {
+    "id": "stitched-tracker",
+    "rev": "cedd",
+    "path": "cedd/pre/stitched-tracker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/stitched-tracker.png"
+  },
+  {
+    "id": "sunborne-val-kyr",
+    "rev": "cedd",
+    "path": "cedd/pre/sunborne-val-kyr.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/sunborne-val-kyr.png"
+  },
+  {
+    "id": "thrall-deathseer",
+    "rev": "cedd",
+    "path": "cedd/pre/thrall-deathseer.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/thrall-deathseer.png"
   },
   {
     "id": "ticking-abomination",
-    "rev": "af12",
-    "path": "af12/pre/ticking-abomination.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/af12/pre/ticking-abomination.png"
+    "rev": "cedd",
+    "path": "cedd/pre/ticking-abomination.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ticking-abomination.png"
+  },
+  {
+    "id": "tomb-lurker",
+    "rev": "cedd",
+    "path": "cedd/pre/tomb-lurker.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/tomb-lurker.png"
+  },
+  {
+    "id": "transmute-spirit",
+    "rev": "cedd",
+    "path": "cedd/pre/transmute-spirit.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/transmute-spirit.png"
+  },
+  {
+    "id": "treachery",
+    "rev": "cedd",
+    "path": "cedd/pre/treachery.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/treachery.png"
+  },
+  {
+    "id": "ultimate-infestation",
+    "rev": "cedd",
+    "path": "cedd/pre/ultimate-infestation.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/ultimate-infestation.png"
+  },
+  {
+    "id": "unwilling-sacrifice",
+    "rev": "cedd",
+    "path": "cedd/pre/unwilling-sacrifice.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/unwilling-sacrifice.png"
+  },
+  {
+    "id": "val-kyr-soulclaimer",
+    "rev": "cedd",
+    "path": "cedd/pre/val-kyr-soulclaimer.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/val-kyr-soulclaimer.png"
+  },
+  {
+    "id": "valeera-the-hollow",
+    "rev": "cedd",
+    "path": "cedd/pre/valeera-the-hollow.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/valeera-the-hollow.png"
   },
   {
     "id": "venomstrike-trap",
-    "rev": "1166",
-    "path": "1166/pre/venomstrike-trap.png",
-    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/1166/pre/venomstrike-trap.png"
+    "rev": "cedd",
+    "path": "cedd/pre/venomstrike-trap.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/venomstrike-trap.png"
   },
   {
     "id": "voodoo-hexxer",
