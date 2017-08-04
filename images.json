@@ -6,6 +6,12 @@
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/abominable-bowman.png"
   },
   {
+    "id": "acolyte-of-agony",
+    "rev": "9f3c",
+    "path": "9f3c/pre/acolyte-of-agony.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/9f3c/pre/acolyte-of-agony.png"
+  },
+  {
     "id": "animated-berserker",
     "rev": "cedd",
     "path": "cedd/pre/animated-berserker.png",
@@ -346,6 +352,12 @@
     "rev": "cedd",
     "path": "cedd/pre/righteous-defender.png",
     "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/cedd/pre/righteous-defender.png"
+  },
+  {
+    "id": "roll-the-bones",
+    "rev": "9f3c",
+    "path": "9f3c/pre/roll-the-bones.png",
+    "url": "https://cdn.rawgit.com/schmich/hearthstone-card-images/9f3c/pre/roll-the-bones.png"
   },
   {
     "id": "runeforge-haunter",
