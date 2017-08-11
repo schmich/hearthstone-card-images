@@ -2,8 +2,8 @@
 
 Hearthstone card images served via CDN for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
 
-![](https://cdn.rawgit.com/schmich/hearthstone-card-images/afb4/rel/UNG_015.png)
-![](https://cdn.rawgit.com/schmich/hearthstone-card-images/f5d6/rel/KAR_073.png)
+![](https://cdn.rawgit.com/schmich/hearthstone-card-images/7af5/rel/ICC_314.png)
+![](https://cdn.rawgit.com/schmich/hearthstone-card-images/7af5/rel/ICC_281.png)
 
 ## Usage
 
