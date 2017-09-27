@@ -16,14 +16,17 @@ ids = database.map { |card| [card['dbfId'], card['id']] }.to_h
 
 branch = `git rev-parse --abbrev-ref HEAD`.strip
 cards = Dir['**/*.png'].with_progress.map do |file|
-  dbf_id = File.basename(file, '.png').to_i
-  raise 'Invalid DBF ID.' if dbf_id == 0
+  basename = File.basename(file, '.png')
+  dbf_id = basename.to_i
+  dbf_id = nil if dbf_id == 0
+  id = dbf_id.nil? ? basename : ids[dbf_id]
 
   rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
+  raise "Unversioned file: #{file}." if rev.empty?
   path = "#{rev}/#{file}"
   url = "https://raw.githubusercontent.com/schmich/hearthstone-card-images/#{path}"
 
-  { id: ids[dbf_id], dbfId: dbf_id, url: url }
+  { id: id, dbfId: dbf_id, url: url }
 end
 
 open('images.json', 'w') do |w|
