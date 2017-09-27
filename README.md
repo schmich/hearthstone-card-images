@@ -1,14 +1,15 @@
 # Hearthstone Card Images [![npm](https://img.shields.io/npm/v/hearthstone-card-images.svg)](https://www.npmjs.com/package/hearthstone-card-images)
 
-Hearthstone card images served via CDN for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
+Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
 
-![](https://cdn.rawgit.com/schmich/hearthstone-card-images/7af5/rel/ICC_314.png)
-![](https://cdn.rawgit.com/schmich/hearthstone-card-images/7af5/rel/ICC_281.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/ICC_314.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/ICC_281.png)
 
 ## Usage
 
 - [HearthstoneJSON](https://hearthstonejson.com/) makes Hearthstone card info available in [JSON format](https://api.hearthstonejson.com/v1/latest/enUS/cards.json)
-- Use [`images.json`](images.json) to map from a Hearthstone card ID to a CDN URL for that card's image
+- Use [`images.json`](images.json) to map from a Hearthstone card ID to a repository URL for that card's image
+- Download, cache, and use card images on your own server or in your own app
 
 ## Updating Images
 
@@ -31,13 +32,12 @@ The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.ht
 
 ## Notes
 
-- The CDN URL points to a permanent, cached image
-- [`images.json`](images.json) is updated with a new CDN URL when a card's image changes
+- The image URL is a GitHub asset URL and should not be used as a CDN
+- You should download, cache, and serve images yourself
 - Released cards are under the [`rel`](rel) folder; prerelease cards are under the [`pre`](pre) folder
 - For prerelease cards, their name serves as their card ID until they are released
 - Not all cards in HearthstoneJSON's [`cards.json`](https://api.hearthstonejson.com/v1/latest/enUS/cards.json) have a corresponding image
 - Currently, only en-US card images are available
-- CDN graciously provided by [RawGit](http://rawgit.com/) and [StackPath](https://www.stackpath.com/)
 
 ## License
 
