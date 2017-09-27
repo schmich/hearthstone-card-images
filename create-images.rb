@@ -21,7 +21,7 @@ cards = Dir['**/*.png'].with_progress.map do |file|
 
   rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
   path = "#{rev}/#{file}"
-  url = "https://github.com/schmich/hearthstone-card-images/raw/#{path}"
+  url = "https://raw.githubusercontent.com/schmich/hearthstone-card-images/#{path}"
 
   { id: ids[dbf_id], dbfId: dbf_id, url: url }
 end
