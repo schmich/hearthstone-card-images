@@ -2,8 +2,8 @@
 
 Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
 
-![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/ICC_314.png)
-![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/ICC_281.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/42818.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/42759.png)
 
 ## Usage
 
