@@ -1,5 +1,6 @@
 require 'json'
 require 'progress_bar'
+require 'open-uri'
 
 class Array
   include ProgressBar::WithProgress
@@ -10,13 +11,19 @@ if short_revs.length != short_revs.uniq.length
   raise "Short revisions collide, see 'git rev-list master'."
 end
 
-cards = Dir['**/*.png'].with_progress.map do |file|
-  id = File.basename(file, '.png')
-  rev = `git rev-list master -1 -- #{file}`.strip[0...4]
-  path = "#{rev}/#{file}"
-  url = "https://cdn.rawgit.com/schmich/hearthstone-card-images/#{path}"
+database = JSON.parse(open('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').read)
+ids = database.map { |card| [card['dbfId'], card['id']] }.to_h
 
-  { id: id, rev: rev, path: path, url: url }
+branch = `git rev-parse --abbrev-ref HEAD`.strip
+cards = Dir['**/*.png'].with_progress.map do |file|
+  dbf_id = File.basename(file, '.png').to_i
+  raise 'Invalid DBF ID.' if dbf_id == 0
+
+  rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
+  path = "#{rev}/#{file}"
+  url = "https://github.com/schmich/hearthstone-card-images/raw/#{path}"
+
+  { id: ids[dbf_id], dbfId: dbf_id, url: url }
 end
 
 open('images.json', 'w') do |w|
