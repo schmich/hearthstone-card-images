@@ -41,7 +41,7 @@ The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.ht
 
 ## License
 
-All card images and names copyright © Blizzard Entertainment, Inc.
+All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
 All else copyright © 2016 Chris Schmich  
 MIT License. See [LICENSE](LICENSE) for details.
