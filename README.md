@@ -13,7 +13,7 @@ Hearthstone card image repository for use in conjunction with [HearthstoneJSON](
 
 ## Updating Images
 
-You can periodically fetch [`images.json`](images.json) and cache the image URLs on your server or in your app. The image map is also published as a [versioned NPM package](https://www.npmjs.com/package/hearthstone-card-images):
+You can periodically fetch [`images.json`](images.json) and update your images using the URLs there. The image map is also published as a [versioned NPM package](https://www.npmjs.com/package/hearthstone-card-images):
 
 `npm install --save hearthstone-card-images`
 
@@ -32,7 +32,7 @@ The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.ht
 
 ## Notes
 
-- The image URL is a GitHub asset URL and should not be used as a CDN
+- The image URL is a GitHub asset URL and *must not* be used as a CDN
 - You should download, cache, and serve images yourself
 - Released cards are under the [`rel`](rel) folder; prerelease cards are under the [`pre`](pre) folder
 - For prerelease cards, their name serves as their card ID until they are released
