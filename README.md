@@ -33,7 +33,7 @@ The package's version adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.ht
 ## Notes
 
 - The image URL is a GitHub asset URL and *must not* be used as a CDN
-- You should download, cache, and serve images yourself
+- You *must* download, cache, and serve images yourself
 - Released cards are under the [`rel`](rel) folder; prerelease cards are under the [`pre`](pre) folder
 - For prerelease cards, their name serves as their card ID until they are released
 - Not all cards in HearthstoneJSON's [`cards.json`](https://api.hearthstonejson.com/v1/latest/enUS/cards.json) have a corresponding image
