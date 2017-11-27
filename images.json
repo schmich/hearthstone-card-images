@@ -110,9 +110,14 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/explosive-runes.png"
   },
   {
+    "id": "fal-dorei-strider",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/fal-dorei-strider.png"
+  },
+  {
     "id": "felhunter",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/felhunter.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/felhunter.png"
   },
   {
     "id": "feral-gibberer",
@@ -172,12 +177,17 @@
   {
     "id": "guardian-spirit",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/guardian-spirit.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/guardian-spirit.png"
   },
   {
     "id": "guild-recruiter",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/guild-recruiter.png"
+  },
+  {
+    "id": "hoarding-dragon",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/hoarding-dragon.png"
   },
   {
     "id": "jasper-spellstone",
@@ -233,6 +243,11 @@
     "id": "level-up",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/level-up.png"
+  },
+  {
+    "id": "leyline-spider",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/leyline-spider.png"
   },
   {
     "id": "lone-champion",
@@ -320,6 +335,11 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/sonya-shadowdancer.png"
   },
   {
+    "id": "spider-ambush",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/spider-ambush.png"
+  },
+  {
     "id": "spiteful-summoner",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/spiteful-summoner.png"
@@ -383,6 +403,11 @@
     "id": "unidentified-maul",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/unidentified-maul.png"
+  },
+  {
+    "id": "voidlord",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/voidlord.png"
   },
   {
     "id": "wandering-monster",
