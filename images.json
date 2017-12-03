@@ -2,7 +2,7 @@
   {
     "id": "aluneth",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/aluneth.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/aluneth.png"
   },
   {
     "id": "amethyst-spellstone",
@@ -12,12 +12,12 @@
   {
     "id": "arcane-artificer",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/arcane-artificer.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/arcane-artificer.png"
   },
   {
     "id": "arcane-tyrant",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/arcane-tyrant.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/arcane-tyrant.png"
   },
   {
     "id": "azari-the-devourer",
@@ -27,7 +27,12 @@
   {
     "id": "benevolent-djinn",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/benevolent-djinn.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/benevolent-djinn.png"
+  },
+  {
+    "id": "bladed-gauntlet",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/bladed-gauntlet.png"
   },
   {
     "id": "blessed-maul",
@@ -37,7 +42,7 @@
   {
     "id": "branching-paths",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/branching-paths.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/branching-paths.png"
   },
   {
     "id": "call-to-arms",
@@ -67,12 +72,32 @@
   {
     "id": "crushing-walls",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/crushing-walls.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/crushing-walls.png"
+  },
+  {
+    "id": "crystal-lion",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/crystal-lion.png"
+  },
+  {
+    "id": "deck-of-wonders",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/deck-of-wonders.png"
+  },
+  {
+    "id": "diamond-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/diamond-spellstone.png"
+  },
+  {
+    "id": "dragon-s-fury",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/dragon-s-fury.png"
   },
   {
     "id": "dragon-soul",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/dragon-soul.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/dragon-soul.png"
   },
   {
     "id": "dragon-spirit",
@@ -80,14 +105,29 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/dragon-spirit.png"
   },
   {
+    "id": "dragoncaller-alanna",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/dragoncaller-alanna.png"
+  },
+  {
+    "id": "dragonhatcher",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/dragonhatcher.png"
+  },
+  {
     "id": "drygulch-jailor",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/drygulch-jailor.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/drygulch-jailor.png"
+  },
+  {
+    "id": "drywhisker-armorer",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/drywhisker-armorer.png"
   },
   {
     "id": "duskbreaker",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/duskbreaker.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/duskbreaker.png"
   },
   {
     "id": "eat-the-mushroom",
@@ -115,9 +155,19 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/elixir-of-shadows.png"
   },
   {
+    "id": "elven-minstrel",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/elven-minstrel.png"
+  },
+  {
+    "id": "emerald-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/emerald-spellstone.png"
+  },
+  {
     "id": "evasion",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/evasion.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/evasion.png"
   },
   {
     "id": "explore-the-darkness",
@@ -137,7 +187,7 @@
   {
     "id": "felhunter",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/felhunter.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/felhunter.png"
   },
   {
     "id": "feral-gibberer",
@@ -145,9 +195,14 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/feral-gibberer.png"
   },
   {
+    "id": "fire-dragon",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/fire-dragon.png"
+  },
+  {
     "id": "furbolg-mossbinder",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/furbolg-mossbinder.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/furbolg-mossbinder.png"
   },
   {
     "id": "gather-your-party",
@@ -157,7 +212,7 @@
   {
     "id": "geosculptor-yip",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/geosculptor-yip.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/geosculptor-yip.png"
   },
   {
     "id": "golden-kobold",
@@ -167,12 +222,22 @@
   {
     "id": "grand-archivist",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/grand-archivist.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/grand-archivist.png"
   },
   {
     "id": "greater-amethyst-spellstone",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/greater-amethyst-spellstone.png"
+  },
+  {
+    "id": "greater-diamond-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/greater-diamond-spellstone.png"
+  },
+  {
+    "id": "greater-emerald-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/greater-emerald-spellstone.png"
   },
   {
     "id": "greater-jasper-spellstone",
@@ -183,6 +248,11 @@
     "id": "greater-mithril-spellstone",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/greater-mithril-spellstone.png"
+  },
+  {
+    "id": "greater-onyx-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/greater-onyx-spellstone.png"
   },
   {
     "id": "greater-pearl-spellstone",
@@ -200,6 +270,11 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/greater-sapphire-spellstone.png"
   },
   {
+    "id": "greedy-sprite",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/greedy-sprite.png"
+  },
+  {
     "id": "grizzled-guardian",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/grizzled-guardian.png"
@@ -212,22 +287,37 @@
   {
     "id": "guardian-spirit",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/guardian-spirit.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/guardian-spirit.png"
   },
   {
     "id": "guild-recruiter",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/guild-recruiter.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/guild-recruiter.png"
   },
   {
     "id": "hoarding-dragon",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/hoarding-dragon.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/hoarding-dragon.png"
   },
   {
     "id": "hungry-ettin",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/hungry-ettin.png"
+  },
+  {
+    "id": "iron-golem",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/iron-golem.png"
+  },
+  {
+    "id": "ironwood-golem",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/ironwood-golem.png"
+  },
+  {
+    "id": "ixlid-fungal-lord",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/ixlid-fungal-lord.png"
   },
   {
     "id": "jasper-spellstone",
@@ -237,12 +327,12 @@
   {
     "id": "kathrena-winterwisp",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/kathrena-winterwisp.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/kathrena-winterwisp.png"
   },
   {
     "id": "king-s-ransom",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/king-s-ransom.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/king-s-ransom.png"
   },
   {
     "id": "king-togwaggle",
@@ -250,39 +340,59 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/king-togwaggle.png"
   },
   {
+    "id": "kingsbane",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/kingsbane.png"
+  },
+  {
     "id": "kobold-hermit",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/kobold-hermit.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/kobold-hermit.png"
   },
   {
     "id": "kobold-illusionist",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/kobold-illusionist.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/kobold-illusionist.png"
   },
   {
     "id": "kobold-librarian",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/kobold-librarian.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/kobold-librarian.png"
   },
   {
     "id": "lesser-amethyst-spellstone",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/lesser-amethyst-spellstone.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-amethyst-spellstone.png"
+  },
+  {
+    "id": "lesser-diamond-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-diamond-spellstone.png"
+  },
+  {
+    "id": "lesser-emerald-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-emerald-spellstone.png"
   },
   {
     "id": "lesser-jasper-spellstone",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/lesser-jasper-spellstone.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-jasper-spellstone.png"
   },
   {
     "id": "lesser-mithril-spellstone",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/lesser-mithril-spellstone.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-mithril-spellstone.png"
+  },
+  {
+    "id": "lesser-onyx-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-onyx-spellstone.png"
   },
   {
     "id": "lesser-pearl-spellstone",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/lesser-pearl-spellstone.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lesser-pearl-spellstone.png"
   },
   {
     "id": "lesser-ruby-spellstone",
@@ -297,12 +407,12 @@
   {
     "id": "level-up",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/level-up.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/level-up.png"
   },
   {
     "id": "leyline-manipulator",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/leyline-manipulator.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/leyline-manipulator.png"
   },
   {
     "id": "leyline-spider",
@@ -312,7 +422,7 @@
   {
     "id": "lone-champion",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/lone-champion.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/lone-champion.png"
   },
   {
     "id": "loot-the-chest",
@@ -340,19 +450,39 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/mithril-spellstone.png"
   },
   {
+    "id": "murmuring-elemental",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/murmuring-elemental.png"
+  },
+  {
+    "id": "oaken-summons",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/oaken-summons.png"
+  },
+  {
+    "id": "onyx-spellstone",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/onyx-spellstone.png"
+  },
+  {
     "id": "pearl-spellstone",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/pearl-spellstone.png"
   },
   {
+    "id": "possessed-lackey",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/possessed-lackey.png"
+  },
+  {
     "id": "primal-talismans",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/primal-talismans.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/primal-talismans.png"
   },
   {
     "id": "psychic-scream",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/psychic-scream.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/psychic-scream.png"
   },
   {
     "id": "purifier-s-maul",
@@ -363,6 +493,11 @@
     "id": "raven-familiar",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/raven-familiar.png"
+  },
+  {
+    "id": "reckless-flurry",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/reckless-flurry.png"
   },
   {
     "id": "rin-the-first-disciple",
@@ -380,6 +515,11 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/rummaging-kobold.png"
   },
   {
+    "id": "runed-shield",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/runed-shield.png"
+  },
+  {
     "id": "sacred-maul",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/sacred-maul.png"
@@ -390,9 +530,19 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/sapphire-spellstone.png"
   },
   {
+    "id": "scroll-of-wonder",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/scroll-of-wonder.png"
+  },
+  {
     "id": "seeping-oozeling",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/seeping-oozeling.png"
+  },
+  {
+    "id": "serrated-shield",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/serrated-shield.png"
   },
   {
     "id": "silver-vanguard",
@@ -402,17 +552,22 @@
   {
     "id": "skull-of-the-man-ari",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/skull-of-the-man-ari.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/skull-of-the-man-ari.png"
   },
   {
     "id": "sonya-shadowdancer",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/sonya-shadowdancer.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/sonya-shadowdancer.png"
   },
   {
     "id": "spider-ambush",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/fcea/pre/spider-ambush.png"
+  },
+  {
+    "id": "spiked-shield",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/spiked-shield.png"
   },
   {
     "id": "spiteful-summoner",
@@ -422,12 +577,12 @@
   {
     "id": "sudden-betrayal",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/sudden-betrayal.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/sudden-betrayal.png"
   },
   {
     "id": "temporus",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/temporus.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/temporus.png"
   },
   {
     "id": "the-final-seal",
@@ -447,7 +602,7 @@
   {
     "id": "the-runespear",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/the-runespear.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/the-runespear.png"
   },
   {
     "id": "the-second-seal",
@@ -460,19 +615,34 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/the-third-seal.png"
   },
   {
+    "id": "to-my-side",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/to-my-side.png"
+  },
+  {
     "id": "tolin-s-goblet",
     "dbfId": null,
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/ebae/pre/tolin-s-goblet.png"
   },
   {
+    "id": "tower-shield",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/tower-shield.png"
+  },
+  {
     "id": "twig-of-the-world-tree",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/twig-of-the-world-tree.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/twig-of-the-world-tree.png"
+  },
+  {
+    "id": "twilight-s-call",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/twilight-s-call.png"
   },
   {
     "id": "unidentified-elixir",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/unidentified-elixir.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/unidentified-elixir.png"
   },
   {
     "id": "unidentified-maul",
@@ -480,29 +650,44 @@
     "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/80ca/pre/unidentified-maul.png"
   },
   {
+    "id": "unidentified-shield",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/unidentified-shield.png"
+  },
+  {
     "id": "unstable-evolution",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/unstable-evolution.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/unstable-evolution.png"
+  },
+  {
+    "id": "val-anyr",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/val-anyr.png"
   },
   {
     "id": "voidlord",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/voidlord.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/voidlord.png"
   },
   {
     "id": "vulgar-homunculus",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/vulgar-homunculus.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/vulgar-homunculus.png"
   },
   {
     "id": "wandering-monster",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/edde/pre/wandering-monster.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/wandering-monster.png"
   },
   {
     "id": "windshear-stormcaller",
     "dbfId": null,
-    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/a075/pre/windshear-stormcaller.png"
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/windshear-stormcaller.png"
+  },
+  {
+    "id": "wolf",
+    "dbfId": null,
+    "url": "https://raw.githubusercontent.com/schmich/hearthstone-card-images/29af/pre/wolf.png"
   },
   {
     "id": "wondrous-wand",
