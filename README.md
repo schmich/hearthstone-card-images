@@ -2,13 +2,15 @@
 
 Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
 
+All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
+
 ![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/45988.png)
 ![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/43112.png)
 
 ## Usage
 
 - [HearthstoneJSON](https://hearthstonejson.com/) makes Hearthstone card info available in [JSON format](https://api.hearthstonejson.com/v1/latest/enUS/cards.json)
-- Use [`images.json`](images.json) to map from a Hearthstone card ID to a repository URL for that card's image
+- Use [`images.json`](images.json) to map from a Hearthstone card DBF ID to a repository URL for that card's image
 - Download, cache, and use card images on your own server or in your own app
 
 ## Updating Images
@@ -21,7 +23,7 @@ You can periodically fetch [`images.json`](images.json) and update your images u
 const images = require('hearthstone-card-images');
 
 for (const card of images) {
-  console.log(`${card.id} -> ${card.url}`);
+  console.log(`${card.dbfId} -> ${card.url}`);
 }
 ```
 
