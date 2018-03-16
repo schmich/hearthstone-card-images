@@ -1,6 +1,7 @@
 require 'json'
 require 'progress_bar'
 require 'open-uri'
+require 'digest/sha1'
 
 class Array
   include ProgressBar::WithProgress
@@ -11,24 +12,30 @@ if short_revs.length != short_revs.uniq.length
   raise "Short revisions collide, see 'git rev-list master'."
 end
 
-database = JSON.parse(open('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').read)
-ids = database.map { |card| [card['dbfId'], card['id']] }.to_h
+def create_card_map(pattern)
+  branch = `git rev-parse --abbrev-ref HEAD`.strip
+  return Dir[pattern].with_progress.map { |file|
+    rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
+    raise "Unversioned file: #{file}." if rev.empty?
 
-branch = `git rev-parse --abbrev-ref HEAD`.strip
-cards = Dir['**/*.png'].with_progress.map do |file|
-  basename = File.basename(file, '.png')
-  dbf_id = basename.to_i
-  dbf_id = nil if dbf_id == 0
-  id = dbf_id.nil? ? basename : ids[dbf_id]
+    dbf_id = File.basename(file, '.png')
+    dir = File.dirname(file)
+    path = "#{rev}/#{dir}"
+    hash = Digest::SHA1.base64digest(File.read(file))[0...5]
 
-  rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
-  raise "Unversioned file: #{file}." if rev.empty?
-  path = "#{rev}/#{file}"
-  url = "https://raw.githubusercontent.com/schmich/hearthstone-card-images/#{path}"
-
-  { id: id, dbfId: dbf_id, url: url }
+    [dbf_id, [path, hash]]
+  }.to_h
 end
 
+prerelease = create_card_map('pre/*.png')
+release = create_card_map('rel/*.png')
+
 open('images.json', 'w') do |w|
-  w.write(JSON.pretty_generate(cards))
+  w.write(JSON.dump({
+    config: {
+      version: `jq -r .version package.json`.strip,
+      base: 'https://raw.githubusercontent.com/schmich/hearthstone-card-images/'
+    },
+    cards: prerelease.merge(release)
+  }))
 end
