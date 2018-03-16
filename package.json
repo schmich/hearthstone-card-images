@@ -1,7 +1,7 @@
 {
   "name": "hearthstone-card-images",
-  "version": "2.8.0",
-  "description": "Hearthstone card images in JSON for use with HearthstoneJSON data.",
+  "version": "3.0.0",
+  "description": "Hearthstone card images for use with HearthstoneJSON data.",
   "main": "images.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,10 @@
   "keywords": [
     "hearthstone",
     "hearthstone-json",
+    "hs",
+    "wow",
+    "world-of-warcraft",
+    "dbf",
     "cards",
     "card-images",
     "json",
