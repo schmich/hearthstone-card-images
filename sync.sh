@@ -21,7 +21,7 @@ fi
 
 # Fetch latest images.json database.
 echo 'Downloading latest images.json.'
-json=$(curl -Ls https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json)
+json=$(curl --fail -Ss -L https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json)
 base=$(jq -r .config.base <<< "$json")
 cards=$(jq -r '.cards | to_entries[] | [.key, .value[0], .value[1]] | @tsv' <<< "$json")
 total=$(wc -l <<< "$cards" | tr -d ' ')
@@ -45,5 +45,5 @@ while IFS=$'\t' read -r id path hash; do
   # Local image doesn't exist or is different. Update it.
   url="$base$path/$id.png"
   echo "Sync $path/$id.png -> $local_file."
-  curl -Lso "$local_file" "$url"
+  curl --fail -Ss -Lo "$local_file" "$url"
 done <<< "$cards"
