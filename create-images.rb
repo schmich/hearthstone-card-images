@@ -7,23 +7,16 @@ class Array
   include ProgressBar::WithProgress
 end
 
-short_revs = `git rev-list master`.lines.map { |line| line.strip[0...4] }
-if short_revs.length != short_revs.uniq.length
-  raise "Short revisions collide, see 'git rev-list master'."
-end
-
 def create_card_map(pattern)
   branch = `git rev-parse --abbrev-ref HEAD`.strip
   return Dir[pattern].with_progress.map { |file|
-    rev = `git rev-list #{branch} -1 -- #{file}`.strip[0...4]
-    raise "Unversioned file: #{file}." if rev.empty?
+    versioned = `git ls-files #{file}`.strip
+    raise "Unversioned file: #{file}." if versioned.empty?
 
-    dbf_id = File.basename(file, '.png')
-    dir = File.dirname(file)
-    path = "#{rev}/#{dir}"
+    id = File.basename(file, '.png')
     hash = Digest::SHA1.base64digest(File.read(file))[0...5]
 
-    [dbf_id, hash]
+    [id, hash]
   }.to_h
 end
 
