@@ -27,10 +27,11 @@ def create_card_map(pattern)
   }.to_h
 end
 
+package = JSON.parse(File.read('package.json'))
 open('images.json', 'w') do |w|
   w.write(JSON.dump({
     config: {
-      version: `jq -r .version package.json`.strip,
+      version: package['version'],
       base: 'https://raw.githubusercontent.com/schmich/hearthstone-card-images'
     },
     cards: {
