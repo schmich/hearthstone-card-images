@@ -17,9 +17,21 @@ All card images and names copyright Â© Blizzard Entertainment, Inc. HearthstoneÂ
 
 ### .zip or .tar.gz archive
 
-This method is best if you have not yet downloaded any card images.
+This method is best if you have not yet downloaded any card images and wish to use [`sync.sh`](#syncsh) to stay up-to-date.
 
-Card images can be downloaded as a compressed archive from the [releases page](https://github.com/schmich/hearthstone-card-images/releases). Download, extract, and combine card images in the `pre` (prerelease cards) and `rel` (released cards) folders into a single card image folder.
+Card images can be downloaded as a compressed archive from the [releases page](https://github.com/schmich/hearthstone-card-images/releases). Download, extract, and combine card images in the `pre` (prerelease cards) and `rel` (released cards) folders into a single card images folder.
+
+### git
+
+This method is best if you have not yet downloaded any card images and wish to use `git` to stay up-to-date.
+
+Create a shallow clone of this repo unless you absolutely need the full history. There are a lot of outdated card images that you can avoid transferring altogether if you don't need them.
+
+```bash
+git clone --depth 1 https://github.com/schmich/hearthstone-card-images
+```
+
+You can use `git pull` to stay up-to-date, but note that the `pre` (prerelease cards) and `rel` (released cards) are in separate folders.
 
 ### sync.sh
 
@@ -31,7 +43,7 @@ curl -LOs https://raw.githubusercontent.com/schmich/hearthstone-card-images/mast
 bash sync.sh images
 ```
 
-[`sync.sh`](sync.sh) incrementally downloads card images from the repo to a local directory if the card image has changed or is missing. It compares the local file hash to the card image hash stored in [`images.json`](images.json). The hash is the 5 character prefix of the base64-encoded SHA1 hash of the image contents.
+[`sync.sh`](sync.sh) incrementally downloads card images from the repo to a local directory if the card image has changed or is missing. It compares the local file hash to the card image hash stored in [`images.json`](images.json). Each hash is the 5 character prefix of the base64-encoded SHA1 hash of the image contents.
 
 ### images.json
 
