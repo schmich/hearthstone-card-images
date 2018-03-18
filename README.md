@@ -47,17 +47,20 @@ function indexCardImages() {
   const database = require('hearthstone-card-images');
 
   let images = {};
-  const base = database.config.base;
-  for (let id in database.cards) {
-    let url = `${base}${database.cards[id][0]}/${id}.png`;
-    images[id] = url;
+  let base = database.config.base;
+  let version = database.config.version;
+  for (let type in database.cards) {
+    for (let id in database.cards[type]) {
+      let url = `${base}/${version}/${type}/${id}.png`;
+      images[id] = url;
+    }
   }
 
   return images;
 }
 
 // Show all available card images.
-const images = indexCardImages();
+let images = indexCardImages();
 for (let id in images) {
   let url = images[id];
   console.log(`${id} -> ${url}`);

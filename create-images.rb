@@ -23,19 +23,19 @@ def create_card_map(pattern)
     path = "#{rev}/#{dir}"
     hash = Digest::SHA1.base64digest(File.read(file))[0...5]
 
-    [dbf_id, [path, hash]]
+    [dbf_id, hash]
   }.to_h
 end
-
-prerelease = create_card_map('pre/*.png')
-release = create_card_map('rel/*.png')
 
 open('images.json', 'w') do |w|
   w.write(JSON.dump({
     config: {
       version: `jq -r .version package.json`.strip,
-      base: 'https://raw.githubusercontent.com/schmich/hearthstone-card-images/'
+      base: 'https://raw.githubusercontent.com/schmich/hearthstone-card-images'
     },
-    cards: prerelease.merge(release)
+    cards: {
+      pre: create_card_map('pre/*.png'),
+      rel: create_card_map('rel/*.png')
+    }
   }))
 end

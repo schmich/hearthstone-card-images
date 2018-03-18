@@ -13,7 +13,7 @@ if [[ ! -d $dir ]]; then
   exit 1
 fi
 
-read -p "This will overwrite card images in \"$dir\". Continue (y/n)? " -r
+read -r -p "This will overwrite card images in \"$dir\". Continue (y/n)? "
 if [[ ! $REPLY =~ ^[Yy] ]]; then
   echo Canceled.
   exit 1
@@ -22,12 +22,15 @@ fi
 # Fetch latest images.json database.
 echo 'Downloading latest images.json.'
 json=$(curl --fail -Ss -L https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json)
+version=$(jq -r .config.version <<< "$json")
 base=$(jq -r .config.base <<< "$json")
-cards=$(jq -r '.cards | to_entries[] | [.key, .value[0], .value[1]] | @tsv' <<< "$json")
+pre=$(jq -r '.cards.pre | to_entries[] | ["pre", .key, .value] | @tsv' <<< "$json")
+rel=$(jq -r '.cards.rel | to_entries[] | ["rel", .key, .value] | @tsv' <<< "$json")
+cards="$pre"$'\n'"$rel"
 total=$(wc -l <<< "$cards" | tr -d ' ')
 
 index=0
-while IFS=$'\t' read -r id path hash; do
+while IFS=$'\t' read -r type id hash; do
   ((index++))
   echo -n "[$index/$total] "
 
@@ -43,7 +46,7 @@ while IFS=$'\t' read -r id path hash; do
   fi
 
   # Local image doesn't exist or is different. Update it.
-  url="$base$path/$id.png"
-  echo "Sync $path/$id.png -> $local_file."
+  url="$base/$version/$type/$id.png"
+  echo "Sync $version/$type/$id.png -> $local_file."
   curl --fail -Ss -Lo "$local_file" "$url"
 done <<< "$cards"
