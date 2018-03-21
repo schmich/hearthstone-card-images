@@ -15,27 +15,13 @@ All card images and names copyright Â© Blizzard Entertainment, Inc. HearthstoneÂ
 
 ## Downloading Images
 
-### .zip or .tar.gz archive
+### Via compressed archive
 
-This method is best if you have not yet downloaded any card images and wish to use [`sync.sh`](#syncsh) to stay up-to-date.
+This method is best if you wish to use the provided [`sync.sh`](sync.sh) script to stay up-to-date.
 
-Card images can be downloaded as a compressed archive from the [releases page](https://github.com/schmich/hearthstone-card-images/releases). Download, extract, and combine card images in the `pre` (prerelease cards) and `rel` (released cards) folders into a single card images folder.
+Setup: Download card images as a .zip or .tar.gz compressed archive from the [releases page](https://github.com/schmich/hearthstone-card-images/releases). Extract and combine card images in the `pre` (prerelease cards) and `rel` (released cards) folders into a single card images folder.
 
-### git
-
-This method is best if you have not yet downloaded any card images and wish to use `git` to stay up-to-date.
-
-Create a shallow clone of this repo unless you absolutely need the full history. There are a lot of outdated card images that you can avoid transferring altogether if you don't need them.
-
-```bash
-git clone --depth 1 https://github.com/schmich/hearthstone-card-images
-```
-
-You can use `git pull` to stay up-to-date, but note that the `pre` (prerelease cards) and `rel` (released cards) are in separate folders.
-
-### sync.sh
-
-This method is best if you want to update your existing card images to match the repo.
+Updating: Download and run the [`sync.sh`](sync.sh) script to keep your images up-to-date with the latest images in this repo. 
 
 ```bash
 curl -LOs https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/sync.sh
@@ -43,13 +29,31 @@ curl -LOs https://raw.githubusercontent.com/schmich/hearthstone-card-images/mast
 bash sync.sh images
 ```
 
-[`sync.sh`](sync.sh) incrementally downloads card images from the repo to a local directory if the card image has changed or is missing. It compares the local file hash to the card image hash stored in [`images.json`](images.json). Each hash is the 5 character prefix of the base64-encoded SHA1 hash of the image contents.
+[`sync.sh`](sync.sh) incrementally downloads card images from the repo to a local directory if the card image has changed or is missing locally. It compares the local file hash to the card image hash stored in [`images.json`](images.json). The hash is the 5 character prefix of the base64-encoded SHA1 hash of the image contents.
 
-### images.json
+### Via git
 
-This method is best if you want fine-grained control over downloading images.
+This method is best if you wish to use `git` to stay up-to-date.
 
-You can use [`images.json`](images.json) to fetch card image URLs by DBF ID. [`images.json`](images.json) is published as a [versioned NPM package](https://www.npmjs.com/package/hearthstone-card-images):
+Setup: Create a shallow clone of this repo unless you absolutely need the full history. There are a lot of outdated card images that you can avoid altogether if you don't need them.
+
+```bash
+git clone --depth 1 --branch master --single-branch https://github.com/schmich/hearthstone-card-images
+```
+
+Updating: Use `git fetch` and `git reset` to [update your shallow clone](https://stackoverflow.com/a/41081908) without growing your local git history.
+
+```bash
+git fetch --depth 1 && git reset --hard origin/master
+```
+
+### Via images.json
+
+This method is best if you want fine-grained control over downloading and updating images.
+
+You can use [`images.json`](images.json) to fetch card image URLs by DBF ID. It is published as a [versioned NPM package](https://www.npmjs.com/package/hearthstone-card-images) that gets updated when cards are added or changed (see [versioning](#versioning)).
+
+Example: Using JavaScript to map from a card's DBF ID to its card image URL using [`images.json`](images.json):
 
 `npm i hearthstone-card-images`
 
