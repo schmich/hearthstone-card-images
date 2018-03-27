@@ -1,6 +1,6 @@
 {
   "name": "hearthstone-card-images",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Hearthstone card images for use with HearthstoneJSON data.",
   "main": "images.json",
   "scripts": {
