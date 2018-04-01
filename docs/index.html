@@ -81,7 +81,7 @@
   </a>
   <div id="app">
     <header>
-      <input type="text" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
+      <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="inputQuery" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
       <div class="controls" v-show="cards.length > 0">
         <div class="zoom">
           <p>{{ Math.ceil((height / 395) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
@@ -98,15 +98,9 @@
       </template>
       <template v-else-if="loaded && !query">
         <p>
-        Try <query q="dragon"></query>, <query q="pirate"></query>, <query q="mech"></query>,
-        <query q="demon"></query>, <query q="murloc"></query>, <query q="beast"></query>,
-        <query q="totem"></query>, <query q="elemental"></query>, <query q="taunt"></query>,
-        <query q="divine shield"></query>, <query q="windfury"></query>, <query q="charge"></query>,
-        <query q="stealth"></query>, <query q="poisonous"></query>, <query q="battlecry"></query>,
-        <query q="deathrattle"></query>, <query q="spell damage"></query>, <query q="weapon"></query>,
-        <query q="secret"></query>, <query q="overload"></query>, <query q="choose one"></query>,
-        <query q="hero power"></query>, <query q="adjacent"></query>, <query q="draw"></query>,
-        <query q="random"></query>
+          Try <template v-for="(example, i) in examples">
+            <a @click.prevent="runQuery" :href="'?q=' + encodeURIComponent(example)">{{ example }}</a><template v-if="i !== examples.length - 1">, </template>
+          </template>
         </p>
       </template>
       <template v-else-if="loaded">
@@ -146,30 +140,27 @@
         };
       }
     };
-    const bus = new Vue({});
-    const queryComponent = {
-      props: ['q'],
-      template: "<a @click.prevent=\"emit\" :href=\"'?q=' + encodeURIComponent(q)\">{{ q }}</a>",
-      methods: {
-        emit() {
-          bus.$emit('query', this.q);
-        }
-      }
-    };
     const App = new Vue({
       el: '#app',
       data: {
+        inputQuery: '',
         query: '',
         height: 296,
         cardImages: {},
-        loaded: false
+        loaded: false,
+        examples: [
+          'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'taunt',
+          'divine shield', 'windfury', 'charge', 'stealth' ,'poisonous', 'lifesteal', 'battlecry',
+          'deathrattle', 'spell damage', 'overload', 'lifesteal', 'weapon', 'secret', 'combo',
+          'discover', 'adapt', 'inspire', 'freeze', 'choose one', 'hero power', 'adjacent', 'draw',
+          'random'
+        ]
       },
       directives: {
         debounce: debounceDirective
       },
       components: {
-        'image-loader': imageLoader,
-        'query': queryComponent
+        'image-loader': imageLoader
       },
       async mounted() {
         let resp = await Promise.all([
@@ -195,9 +186,12 @@
         }
 
         this.cardImages = cardImages;
-        this.query = queryParameter(window.location) || '',
+        this.inputQuery = queryParameter(window.location) || '',
 
-        bus.$on('query', q => { this.query = q; });
+        window.onpopstate = () => {
+          this.query = queryParameter(window.location) || '';
+          this.$refs.q.value = this.query;
+        };
 
         this.loaded = true;
         this.focusQuery();
@@ -206,15 +200,18 @@
         normalize(s) {
           return s.toLowerCase().replace(/[^a-z]/g, '');
         },
+        runQuery(el) {
+          this.inputQuery = el.target.innerText;
+          this.focusQuery();
+        },
         clearQuery() {
-          this.query = '';
+          this.inputQuery = '';
           this.focusQuery();
         },
         focusQuery() {
           Vue.nextTick(() => {
-            let input = document.querySelector('input[name="query"]');
-            input.focus();
-            input.setSelectionRange(0, input.value.length);
+            this.$refs.q.focus();
+            this.$refs.q.setSelectionRange(0, input.value.length);
           });
         }
       },
@@ -239,8 +236,9 @@
         }
       },
       watch: {
-        query: to => {
-          window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
+        inputQuery(to) {
+          this.query = to;
+          window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '/');
         }
       }
     });
