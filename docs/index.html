@@ -210,8 +210,9 @@
         },
         focusQuery() {
           Vue.nextTick(() => {
-            this.$refs.q.focus();
-            this.$refs.q.setSelectionRange(0, input.value.length);
+            let input = this.$refs.q;
+            input.focus();
+            input.setSelectionRange(0, input.value.length);
           });
         }
       },
@@ -238,7 +239,7 @@
       watch: {
         inputQuery(to) {
           this.query = to;
-          window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '/');
+          window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
         }
       }
     });
