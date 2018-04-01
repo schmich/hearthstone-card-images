@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hearthstone Card Images</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <style>
+    body {
+      text-align: center;
+      background: #f0f0f0;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    input[type="text"] {
+      text-align: center;
+      font-size: 24px;
+      width: 25%;
+      min-width: 350px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      padding: 10px 20px;
+      outline: 0;
+    }
+    input::placeholder {
+      color: #ccc;
+    }
+    .zoom {
+      margin: 10px 0 5px 0;
+    }
+    p {
+      font-family: sans-serif;
+      color: #999;
+      margin: 0;
+      padding: 0;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img.loading {
+      background-image: repeating-linear-gradient(50deg, transparent, transparent 10px, rgba(0, 0, 0, .1) 10px, rgba(0, 0, 0, .1) 20px);
+    }
+    .cards p {
+      color: #555;
+      margin-top: 80px;
+      font-size: 30px;
+      max-width: 60%;
+      line-height: 170%;
+    }
+    .cards p a {
+      color: #862;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/schmich/hearthstone-card-images">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+  </a>
+  <div id="app">
+    <header>
+      <input type="text" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
+      <div class="zoom">
+        <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
+        <p>{{ Math.ceil((height / 395) * 100) }}%</p>
+      </div>
+    </header>
+    <div class="cards">
+      <template v-if="cards.length">
+        <a v-for="card in cards" :href="card" target="_new">
+          <image-loader :src="card" :key="card" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"/>
+        </a>
+      </template>
+      <template v-else-if="loaded && !query">
+        <p>
+        Try <query q="dragon"></query>, <query q="pirate"></query>, <query q="mech"></query>,
+        <query q="demon"></query>, <query q="murloc"></query>, <query q="beast"></query>,
+        <query q="totem"></query>, <query q="elemental"></query>, <query q="taunt"></query>,
+        <query q="divine shield"></query>, <query q="windfury"></query>, <query q="charge"></query>,
+        <query q="battlecry"></query>, <query q="deathrattle"></query>, <query q="spell damage"></query>,
+        <query q="weapon"></query>, <query q="secret"></query>, <query q="choose one"></query>,
+        <query q="hero power"></query>, <query q="adjacent"></query>, <query q="draw"></query>,
+        <query q="random"></query>
+        </p>
+      </template>
+      <template v-else-if="loaded">
+        <p>No matches.</p>
+      </template>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function debounce(fn, delay) {
+      let timeoutId = null;
+      return () => {
+        clearTimeout(timeoutId);
+        let args = arguments;
+        timeoutId = setTimeout(() => {
+          fn.apply(this, args);
+        }, delay);
+      };
+    }
+    function debounceDirective(el, binding) {
+      if (binding.value !== binding.oldValue) {
+        el.oninput = debounce(_ => {
+          el.dispatchEvent(new Event('change'));
+        }, +binding.value || 500);
+      }
+    }
+    function queryParameter(location) {
+      let params = {};
+      location.search.slice(1).split('&').map(p => p.split('=')).forEach(p => params[p[0]] = p[1]);
+      return decodeURIComponent(params.q || '');
+    }
+    const imageLoader = {
+      props: ['src'],
+      template: '<img :class="{ loading: loading }" @load="loading = false" :src="src"/>',
+      data: () => {
+        return {
+          loading: true
+        };
+      }
+    };
+    const bus = new Vue({});
+    const queryComponent = {
+      props: ['q'],
+      template: "<a @click.prevent=\"emit\" :href=\"'?q=' + encodeURIComponent(q)\">{{ q }}</a>",
+      methods: {
+        emit() {
+          bus.$emit('query', this.q);
+        }
+      }
+    };
+    const App = new Vue({
+      el: '#app',
+      data: {
+        query: '',
+        height: 296,
+        cardImages: {},
+        loaded: false
+      },
+      directives: {
+        debounce: debounceDirective
+      },
+      components: {
+        'image-loader': imageLoader,
+        'query': queryComponent
+      },
+      async mounted() {
+        let resp = await Promise.all([
+          fetch('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').then(resp => resp.json()),
+          fetch('https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json').then(resp => resp.json())
+        ]);
+
+        let [cards, images] = resp;
+
+        let dbfIdUrls = {};
+        for (let dbfId in images.cards.rel) {
+          dbfIdUrls[dbfId] = `${images.config.base}/${images.config.version}/rel/${dbfId}.png`;
+        }
+
+        let cardImages = {};
+        for (let card of cards) {
+          if (!card.name) {
+            continue;
+          }
+
+          let key = this.normalize((card.name + (card.text || '') + (card.race || '') + (card.type || '')));
+          cardImages[key] = cardImages[key] || dbfIdUrls[card.dbfId];
+        }
+
+        this.cardImages = cardImages;
+        this.query = queryParameter(window.location) || '',
+
+        Vue.nextTick(() => {
+          let input = document.querySelector('input[name="query"]');
+          input.focus();
+          input.setSelectionRange(0, input.value.length);
+        });
+
+        bus.$on('query', q => { this.query = q; });
+
+        this.loaded = true;
+      },
+      methods: {
+        normalize(s) {
+          return s.toLowerCase().replace(/[^a-z]/g, '');
+        }
+      },
+      computed: {
+        cards() {
+          let show = [];
+          let search = this.normalize(this.query);
+          if (search.length < 3) {
+            return [];
+          }
+
+          for (let name in this.cardImages) {
+            if (name.indexOf(search) >= 0) {
+              let image = this.cardImages[name];
+              if (image) {
+                show.push(image);
+              }
+            }
+          }
+
+          return show;
+        }
+      },
+      watch: {
+        query: to => {
+          window.history.replaceState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
