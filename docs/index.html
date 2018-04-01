@@ -60,7 +60,7 @@
     .cards p {
       margin-top: 80px;
       font-size: 30px;
-      max-width: 60%;
+      max-width: 70%;
       line-height: 170%;
     }
     button {
@@ -81,12 +81,12 @@
   </a>
   <div id="app">
     <header>
-      <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="inputQuery" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
+      <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
       <div class="controls" v-show="cards.length > 0">
         <div class="zoom">
           <p>{{ Math.ceil((height / 395) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
         </div>
-        <p>{{ cards.length }} results</p>
+        <p>{{ cards.length }} result{{ cards.length == 1 ? '' : 's' }}</p>
         <button @click="clearQuery">Clear</button>
       </div>
     </header>
@@ -143,17 +143,17 @@
     const App = new Vue({
       el: '#app',
       data: {
-        inputQuery: '',
         query: '',
         height: 296,
         cardImages: {},
         loaded: false,
+        fromLocation: false,
         examples: [
           'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'taunt',
           'divine shield', 'windfury', 'charge', 'stealth' ,'poisonous', 'lifesteal', 'battlecry',
           'deathrattle', 'spell damage', 'overload', 'lifesteal', 'weapon', 'secret', 'combo',
           'discover', 'adapt', 'inspire', 'freeze', 'choose one', 'hero power', 'adjacent', 'draw',
-          'random'
+          'can\'t attack', 'mana crystal', 'random'
         ]
       },
       directives: {
@@ -163,12 +163,10 @@
         'image-loader': imageLoader
       },
       async mounted() {
-        let resp = await Promise.all([
+        let [cards, images] = await Promise.all([
           fetch('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').then(resp => resp.json()),
           fetch('https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json').then(resp => resp.json())
         ]);
-
-        let [cards, images] = resp;
 
         let dbfIdUrls = {};
         for (let dbfId in images.cards.rel) {
@@ -186,11 +184,10 @@
         }
 
         this.cardImages = cardImages;
-        this.inputQuery = queryParameter(window.location) || '',
+        await this.setQueryFromLocation();
 
         window.onpopstate = () => {
-          this.query = queryParameter(window.location) || '';
-          this.$refs.q.value = this.query;
+          Vue.nextTick(() => this.setQueryFromLocation());
         };
 
         this.loaded = true;
@@ -201,18 +198,34 @@
           return s.toLowerCase().replace(/[^a-z]/g, '');
         },
         runQuery(el) {
-          this.inputQuery = el.target.innerText;
+          this.query = el.target.innerText;
           this.focusQuery();
         },
         clearQuery() {
-          this.inputQuery = '';
+          this.query = '';
           this.focusQuery();
         },
-        focusQuery() {
-          Vue.nextTick(() => {
+        async unfocusQuery() {
+          await Vue.nextTick(() => {
+            let input = this.$refs.q;
+            input.setSelectionRange(0, 0);
+            input.blur();
+          });
+        },
+        async focusQuery() {
+          await Vue.nextTick(() => {
             let input = this.$refs.q;
             input.focus();
             input.setSelectionRange(0, input.value.length);
+          });
+        },
+        async setQueryFromLocation() {
+          await this.unfocusQuery();
+          this.fromLocation = true;
+          this.query = queryParameter(window.location) || '';
+          await Vue.nextTick(async () => {
+            this.fromLocation = false;
+            await this.focusQuery();
           });
         }
       },
@@ -237,8 +250,10 @@
         }
       },
       watch: {
-        inputQuery(to) {
-          this.query = to;
+        query(to) {
+          if (this.fromLocation) {
+            return;
+          }
           window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
         }
       }
