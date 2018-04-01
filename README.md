@@ -1,6 +1,6 @@
 # Hearthstone Card Images [![npm](https://img.shields.io/npm/v/hearthstone-card-images.svg)](https://www.npmjs.com/package/hearthstone-card-images)
 
-Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data.
+Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data. Try [the demo application](https://schmich.github.io/hearthstone-card-images/).
 
 All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
