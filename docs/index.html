@@ -5,10 +5,12 @@
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <style>
     body {
+      font-family: sans-serif;
       text-align: center;
       background: #f0f0f0;
     }
     header {
+      margin: 20px 0;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -26,14 +28,26 @@
     input::placeholder {
       color: #ccc;
     }
+    .controls, button {
+      margin: 20px 0 0 0;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+    .controls > * {
+      margin: 0 20px;
+    }
     .zoom {
-      margin: 10px 0 5px 0;
+      display: flex;
+      align-items: center;
+    }
+    .zoom > * {
+      margin: 0 5px;
     }
     p {
-      font-family: sans-serif;
-      color: #999;
       margin: 0;
       padding: 0;
+      color: #555;
     }
     .cards {
       display: flex;
@@ -44,14 +58,20 @@
       background-image: repeating-linear-gradient(50deg, transparent, transparent 10px, rgba(0, 0, 0, .1) 10px, rgba(0, 0, 0, .1) 20px);
     }
     .cards p {
-      color: #555;
       margin-top: 80px;
       font-size: 30px;
       max-width: 60%;
       line-height: 170%;
     }
-    .cards p a {
+    button {
+      background: transparent;
+      border: none;
+      outline: none;
+    }
+    a, button {
       color: #862;
+      text-decoration: underline;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -62,9 +82,12 @@
   <div id="app">
     <header>
       <input type="text" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
-      <div class="zoom">
-        <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
-        <p>{{ Math.ceil((height / 395) * 100) }}%</p>
+      <div class="controls" v-show="cards.length > 0">
+        <div class="zoom">
+          <p>{{ Math.ceil((height / 395) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
+        </div>
+        <p>{{ cards.length }} results</p>
+        <button @click="clearQuery">Clear</button>
       </div>
     </header>
     <div class="cards">
@@ -79,14 +102,15 @@
         <query q="demon"></query>, <query q="murloc"></query>, <query q="beast"></query>,
         <query q="totem"></query>, <query q="elemental"></query>, <query q="taunt"></query>,
         <query q="divine shield"></query>, <query q="windfury"></query>, <query q="charge"></query>,
-        <query q="battlecry"></query>, <query q="deathrattle"></query>, <query q="spell damage"></query>,
-        <query q="weapon"></query>, <query q="secret"></query>, <query q="choose one"></query>,
-        <query q="overload"></query>, <query q="hero power"></query>, <query q="adjacent"></query>,
-        <query q="draw"></query>, <query q="random"></query>
+        <query q="stealth"></query>, <query q="poisonous"></query>, <query q="battlecry"></query>,
+        <query q="deathrattle"></query>, <query q="spell damage"></query>, <query q="weapon"></query>,
+        <query q="secret"></query>, <query q="overload"></query>, <query q="choose one"></query>,
+        <query q="hero power"></query>, <query q="adjacent"></query>, <query q="draw"></query>,
+        <query q="random"></query>
         </p>
       </template>
       <template v-else-if="loaded">
-        <p>No matches.</p>
+        <p>No results.</p>
       </template>
     </div>
   </div>
@@ -173,19 +197,25 @@
         this.cardImages = cardImages;
         this.query = queryParameter(window.location) || '',
 
-        Vue.nextTick(() => {
-          let input = document.querySelector('input[name="query"]');
-          input.focus();
-          input.setSelectionRange(0, input.value.length);
-        });
-
         bus.$on('query', q => { this.query = q; });
 
         this.loaded = true;
+        this.focusQuery();
       },
       methods: {
         normalize(s) {
           return s.toLowerCase().replace(/[^a-z]/g, '');
+        },
+        clearQuery() {
+          this.query = '';
+          this.focusQuery();
+        },
+        focusQuery() {
+          Vue.nextTick(() => {
+            let input = document.querySelector('input[name="query"]');
+            input.focus();
+            input.setSelectionRange(0, input.value.length);
+          });
         }
       },
       computed: {
@@ -210,7 +240,7 @@
       },
       watch: {
         query: to => {
-          window.history.replaceState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
+          window.history.pushState('', '', to ? `?q=${encodeURIComponent(to)}` : '?');
         }
       }
     });
