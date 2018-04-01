@@ -70,7 +70,7 @@
     <div class="cards">
       <template v-if="cards.length">
         <a v-for="card in cards" :href="card" target="_new">
-          <image-loader :src="card" :key="card" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"/>
+          <image-loader :src="card" :key="card" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"></image-loader>
         </a>
       </template>
       <template v-else-if="loaded && !query">
@@ -81,8 +81,8 @@
         <query q="divine shield"></query>, <query q="windfury"></query>, <query q="charge"></query>,
         <query q="battlecry"></query>, <query q="deathrattle"></query>, <query q="spell damage"></query>,
         <query q="weapon"></query>, <query q="secret"></query>, <query q="choose one"></query>,
-        <query q="hero power"></query>, <query q="adjacent"></query>, <query q="draw"></query>,
-        <query q="random"></query>
+        <query q="overload"></query>, <query q="hero power"></query>, <query q="adjacent"></query>,
+        <query q="draw"></query>, <query q="random"></query>
         </p>
       </template>
       <template v-else-if="loaded">
@@ -90,7 +90,7 @@
       </template>
     </div>
   </div>
-  <script type="text/javascript">
+  <script>
     function debounce(fn, delay) {
       let timeoutId = null;
       return () => {
