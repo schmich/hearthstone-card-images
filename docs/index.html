@@ -138,6 +138,12 @@
       location.search.slice(1).split('&').map(p => p.split('=')).forEach(p => params[p[0]] = p[1]);
       return decodeURIComponent(params.q || '');
     }
+    function normalize(s) {
+      return s
+        .toLowerCase()
+        .replace(/<[^>]+?>/g, '')
+        .replace(/[^a-z]/g, '');
+    }
     const imageLoader = {
       props: ['src'],
       template: '<img :class="{ loading: loading }" @load="loading = false" :src="src"/>',
@@ -160,7 +166,7 @@
           'divine shield', 'windfury', 'charge', 'stealth' ,'poisonous', 'lifesteal', 'battlecry',
           'deathrattle', 'spell damage', 'overload', 'lifesteal', 'weapon', 'secret', 'combo',
           'discover', 'adapt', 'inspire', 'freeze', 'choose one', 'hero power', 'adjacent', 'draw',
-          'can\'t attack', 'mana crystal', 'random'
+          'deal damage', 'can\'t attack', 'mana crystal', 'random'
         ]
       },
       directives: {
@@ -186,8 +192,11 @@
             continue;
           }
 
-          let key = this.normalize((card.name + (card.text || '') + (card.race || '') + (card.type || '')));
-          cardImages[key] = cardImages[key] || dbfIdUrls[card.dbfId];
+          let image = dbfIdUrls[card.dbfId];
+          if (image) {
+            let key = normalize((card.name + (card.text || '') + (card.race || '') + (card.type || '')));
+            cardImages[key] = cardImages[key] || image;
+          }
         }
 
         this.cardImages = cardImages;
@@ -201,9 +210,6 @@
         this.focusQuery();
       },
       methods: {
-        normalize(s) {
-          return s.toLowerCase().replace(/[^a-z]/g, '');
-        },
         runQuery(el) {
           this.query = el.target.innerText;
           this.focusQuery();
@@ -238,18 +244,27 @@
       },
       computed: {
         cards() {
-          let show = [];
-          let search = this.normalize(this.query);
-          if (search.length < 3) {
+          if (this.query.length < 3) {
             return [];
           }
 
+          let show = [];
+          let terms = this.query.split(' ').map(t => normalize(t));
+
           for (let name in this.cardImages) {
-            if (name.indexOf(search) >= 0) {
-              let image = this.cardImages[name];
-              if (image) {
-                show.push(image);
+            let match = true;
+            let minIndex = 0;
+            for (let term of terms) {
+              let termIndex = name.indexOf(term);
+              if (termIndex < minIndex) {
+                match = false;
+                break;
               }
+              minIndex = termIndex;
+            }
+
+            if (match) {
+              show.push(this.cardImages[name]);
             }
           }
 
