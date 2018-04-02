@@ -5,6 +5,9 @@
   <link rel="icon" href="favicon.png" type="image/png">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <style>
+    [v-cloak] {
+      display: none;
+    }
     body {
       font-family: sans-serif;
       text-align: center;
@@ -106,7 +109,7 @@
   <a href="https://github.com/schmich/hearthstone-card-images">
     <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
   </a>
-  <div id="app">
+  <div id="app" v-cloak>
     <header>
       <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
       <div class="controls" v-show="cards.length > 0">
@@ -200,9 +203,10 @@
             'inspire', 'freeze', 'choose one', 'silence', 'recruit', 'quest', 'immune', 'secret'
           ],
           effects: [
-            'transform', 'restore health', 'discard', 'destroy', 'deal damage', 'gain armor',
-            'can\'t attack', 'can\'t be targeted', 'reduce cost', 'died this game', 'hero power',
-            'adjacent', 'end of turn', 'draw', 'copy', 'return', 'weapon', 'mana crystal', 'random'
+            'transform', 'health', 'draw', 'discard', 'destroy', 'deal damage', 'gain armor', 
+            'restore health', 'can\'t attack', 'can\'t be targeted', 'reduce cost', 'died this game',
+            'adjacent', 'restore health', 'hero power', 'start of turn', 'end of turn', 'copy',
+            'return', 'weapon', 'mana crystal', 'random'
           ]
         }
       },
