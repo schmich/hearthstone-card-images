@@ -114,8 +114,8 @@
     </header>
     <template v-if="cards.length">
       <div class="cards">
-        <a v-for="card in cards" :href="card" target="_new">
-          <image-loader :src="card" :key="card" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"></image-loader>
+        <a v-for="cardId in cards" :href="imageBase + cardId + '.png'" target="_new">
+          <image-loader :src="imageBase + cardId + '.png'" :key="cardId" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"></image-loader>
         </a>
       </div>
     </template>
@@ -180,7 +180,8 @@
       data: {
         query: '',
         height: 296,
-        cardImages: {},
+        cardIds: {},
+        imageBase: '',
         loaded: false,
         fromLocation: false,
         examples: {
@@ -211,25 +212,25 @@
           fetch('https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json').then(resp => resp.json())
         ]);
 
-        let dbfIdUrls = {};
-        for (let dbfId in images.cards.rel) {
-          dbfIdUrls[dbfId] = `${images.config.base}/${images.config.version}/rel/${dbfId}.png`;
-        }
+        this.imageBase = `${images.config.base}/${images.config.version}/rel/`;
 
-        let cardImages = {};
+        let cardIds = {};
         for (let card of cards) {
-          if (!card.name) {
-            continue;
-          }
-
-          let image = dbfIdUrls[card.dbfId];
-          if (image) {
-            let key = normalize((card.name + (card.text || '') + (card.race || '') + (card.type || '')));
-            cardImages[key] = cardImages[key] || image;
+          let hasImage = images.cards.rel[card.dbfId];
+          if (hasImage) {
+            let parts = [
+              card.name,
+              card.text,
+              card.race,
+              card.type,
+              card.rarity
+            ].filter(p => p).map(p => normalize(p));
+            let key = parts.join("\0");
+            cardIds[key] = cardIds[key] || card.dbfId;
           }
         }
 
-        this.cardImages = cardImages;
+        this.cardIds = cardIds;
         await this.setQueryFromLocation();
 
         window.onpopstate = () => {
@@ -281,7 +282,7 @@
           let show = [];
           let terms = this.query.trim().split(' ').map(t => normalize(t));
 
-          for (let name in this.cardImages) {
+          for (let name in this.cardIds) {
             let match = true;
             let minIndex = 0;
             for (let term of terms) {
@@ -294,7 +295,7 @@
             }
 
             if (match) {
-              show.push(this.cardImages[name]);
+              show.push(this.cardIds[name]);
             }
           }
 
