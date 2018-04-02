@@ -133,7 +133,8 @@
     </template>
     <template v-else-if="loaded">
       <div class="help">
-        <p>No results.</p>
+        <p v-if="query.length < 3">Type at least 3 characters.</p>
+        <p v-else>No results.</p>
       </div>
     </template>
   </div>
