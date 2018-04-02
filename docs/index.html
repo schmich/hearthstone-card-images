@@ -58,14 +58,28 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+    .help {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .help h1 {
+      padding: 0;
+      color: #555;
+      margin: 0 0 10px 0;
+      font-weight: bold;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    .help p {
+      margin: 0 0 50px 0;
+      font-size: 24px;
+      max-width: 60%;
+      line-height: 170%;
+    }
     img.loading {
       background-image: repeating-linear-gradient(50deg, transparent, transparent 10px, rgba(0, 0, 0, .1) 10px, rgba(0, 0, 0, .1) 20px);
-    }
-    .cards p {
-      margin-top: 80px;
-      font-size: 30px;
-      max-width: 70%;
-      line-height: 170%;
     }
     button {
       background: transparent;
@@ -97,23 +111,30 @@
         <button @click="clearQuery">Clear</button>
       </div>
     </header>
-    <div class="cards">
-      <template v-if="cards.length">
+    <template v-if="cards.length">
+      <div class="cards">
         <a v-for="card in cards" :href="card" target="_new">
           <image-loader :src="card" :key="card" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"></image-loader>
         </a>
-      </template>
-      <template v-else-if="loaded && !query">
-        <p>
-          Try <template v-for="(example, i) in examples">
-            <a @click.prevent="runQuery" :href="'?q=' + encodeURIComponent(example)">{{ example }}</a><template v-if="i !== examples.length - 1">, </template>
-          </template>
-        </p>
-      </template>
-      <template v-else-if="loaded">
+      </div>
+    </template>
+    <template v-else-if="loaded && !query">
+      <div class="help">
+        <template v-for="(group, name) in examples">
+          <h1>{{ name }}</h1>
+          <p>
+            <template v-for="(example, i) in group">
+              <a @click.prevent="runQuery" :href="'?q=' + encodeURIComponent(example)">{{ example }}</a><template v-if="i !== group.length - 1">, </template>
+            </template>
+          </p>
+        </template>
+      </div>
+    </template>
+    <template v-else-if="loaded">
+      <div class="help">
         <p>No results.</p>
-      </template>
-    </div>
+      </div>
+    </template>
   </div>
   <script>
     function debounce(fn, delay) {
@@ -161,13 +182,21 @@
         cardImages: {},
         loaded: false,
         fromLocation: false,
-        examples: [
-          'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'taunt',
-          'divine shield', 'windfury', 'charge', 'stealth' ,'poisonous', 'lifesteal', 'battlecry',
-          'deathrattle', 'spell damage', 'overload', 'weapon', 'secret', 'combo', 'discover',
-          'adapt', 'inspire', 'freeze', 'choose one', 'hero power', 'adjacent', 'draw', 'transform',
-          'health', 'silence', 'discard', 'deal damage', 'can\'t attack', 'mana crystal', 'random'
-        ]
+        examples: {
+          minions: [
+            'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'giant'
+          ],
+          keywords: [
+            'taunt', 'divine shield', 'windfury', 'charge', 'stealth', 'poisonous', 'lifesteal',
+            'battlecry', 'deathrattle', 'spell damage', 'overload', 'combo', 'discover', 'adapt',
+            'inspire', 'freeze', 'choose one', 'silence', 'recruit', 'quest', 'immune', 'secret'
+          ],
+          effects: [
+            'transform', 'restore health', 'discard', 'destroy', 'deal damage', 'gain armor',
+            'can\'t attack', 'can\'t be targeted', 'reduce cost', 'hero power', 'adjacent', 'draw',
+            'weapon', 'mana crystal', 'random'
+          ]
+        }
       },
       directives: {
         debounce: debounceDirective
@@ -249,7 +278,7 @@
           }
 
           let show = [];
-          let terms = this.query.split(' ').map(t => normalize(t));
+          let terms = this.query.trim().split(' ').map(t => normalize(t));
 
           for (let name in this.cardImages) {
             let match = true;
