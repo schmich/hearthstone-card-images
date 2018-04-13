@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Hearthstone Card Images</ShortName>
+  <Description>Search for Hearthstone cards</Description>
+  <Url type="text/html" method="get" template="https://schmich.github.io/hearthstone-card-images/?q={searchTerms}"/>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
