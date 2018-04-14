@@ -174,8 +174,10 @@
     function normalize(s) {
       return s
         .toLowerCase()
+        .replace('[x]', '')
         .replace(/<[^>]+?>/g, '')
-        .replace(/[^0-9a-z\+%\/]+/g, '');
+        .replace(/['\-]+/g, '')
+        .replace(/[^0-9a-z\+%\/]+/g, ' ');
     }
     const imageLoader = {
       props: ['src'],
@@ -238,7 +240,7 @@
               card.type,
               card.rarity
             ].filter(p => p).map(p => normalize(p));
-            let key = parts.join("\0");
+            let key = parts.join(' ');
             cardIds[key] = cardIds[key] || card.dbfId;
           }
         }
@@ -293,13 +295,18 @@
           }
 
           let show = [];
-          let terms = this.query.trim().split(' ').map(t => normalize(t));
+          let terms = this.query
+            .replace(/[.?*+^$[\]\\(){}|-]/g, "\\$&")
+            .trim()
+            .split(' ')
+            .map(t => normalize(t))
+            .map(t => new RegExp('\\b' + t));
 
           for (let name in this.cardIds) {
             let match = true;
             let minIndex = 0;
             for (let term of terms) {
-              let termIndex = name.indexOf(term);
+              let termIndex = name.search(term);
               if (termIndex < minIndex) {
                 match = false;
                 break;
