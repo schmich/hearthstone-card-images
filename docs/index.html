@@ -119,6 +119,7 @@
           <p>{{ Math.ceil((height / 395) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
         </div>
         <p>{{ cards.length }} result{{ cards.length == 1 ? '' : 's' }}</p>
+        <label><input type="checkbox" v-model="collectibleOnly"> Collectible only</label>
         <button @click="clearQuery">Clear</button>
       </div>
     </header>
@@ -193,10 +194,12 @@
       data: {
         query: '',
         height: 296,
-        cardIds: {},
+        collectible: {},
+        index: {},
         imageBase: '',
         loaded: false,
         fromLocation: false,
+        collectibleOnly: true,
         examples: {
           minions: [
             'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'giant'
@@ -229,23 +232,28 @@
 
         this.imageBase = `${images.config.base}/${images.config.version}/rel/`;
 
-        let cardIds = {};
+        let index = {};
         for (let card of cards) {
           let hasImage = images.cards.rel[card.dbfId];
-          if (hasImage) {
-            let parts = [
-              card.name,
-              card.text,
-              card.race,
-              card.type,
-              card.rarity
-            ].filter(p => p).map(p => normalize(p));
-            let key = parts.join(' ');
-            cardIds[key] = cardIds[key] || card.dbfId;
+          if (!hasImage) {
+            continue;
           }
+
+          this.collectible[card.dbfId] = card.collectible;
+
+          let parts = [
+            card.name,
+            card.text,
+            card.race,
+            card.type,
+            card.rarity
+          ].filter(p => p).map(p => normalize(p));
+
+          let key = parts.join(' ');
+          index[key] = index[key] || card.dbfId;
         }
 
-        this.cardIds = cardIds;
+        this.index = index;
         await this.setQueryFromLocation();
 
         window.onpopstate = () => {
@@ -302,7 +310,7 @@
             .map(t => normalize(t))
             .map(t => new RegExp('\\b' + t));
 
-          for (let name in this.cardIds) {
+          for (let name in this.index) {
             let match = true;
             let minIndex = 0;
             for (let term of terms) {
@@ -314,8 +322,17 @@
               minIndex = termIndex;
             }
 
+            if (!match) {
+              continue;
+            }
+
+            let cardId = this.index[name];
+            if (this.collectibleOnly) {
+              match = match && this.collectible[cardId];
+            }
+
             if (match) {
-              show.push(this.cardIds[name]);
+              show.push(cardId);
             }
           }
 
