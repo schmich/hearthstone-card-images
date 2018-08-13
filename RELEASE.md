@@ -1,6 +1,6 @@
 # Releasing
 
-- Update card images in repo
+- Update and commit card images
 - Update version number in `package.json`
   - Bump major version when the JSON format changes in a breaking way
   - Bump minor version when new cards are added

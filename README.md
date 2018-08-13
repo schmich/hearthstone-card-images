@@ -4,8 +4,8 @@ Hearthstone card image repository for use in conjunction with [HearthstoneJSON](
 
 All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
-![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/47693.png)
-![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/48360.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/48146.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/rel/49184.png)
 
 ## Overview
 
