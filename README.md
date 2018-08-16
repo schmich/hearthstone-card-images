@@ -1,6 +1,6 @@
 # Hearthstone Card Images [![npm](https://img.shields.io/npm/v/hearthstone-card-images.svg)](https://www.npmjs.com/package/hearthstone-card-images)
 
-Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data. Try [the demo application](https://schmich.github.io/hearthstone-card-images/).
+Hearthstone card image repository for use in conjunction with [HearthstoneJSON](https://hearthstonejson.com/) data. Try [the demo application](https://schmich.github.io/hearthstone-card-images/). See also [related projects](#related-projects).
 
 All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
@@ -98,6 +98,12 @@ The NPM package adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.html):
 - The major version changes when the JSON format changes in a breaking way
 - The minor version changes when new cards are added
 - The patch version changes when card images are updated
+
+## Related Projects
+
+- [HearthstoneJSON](https://github.com/HearthSim/hearthstonejson): Hearthstone datamining and API scripts
+- [Sunwell](https://github.com/HearthSim/Sunwell): Canvas-based high quality Hearthstone card renderer
+- [HearthCards.net](http://hearthcards.net/): Hearthstone card generator
 
 ## License
 
