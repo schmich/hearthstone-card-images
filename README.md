@@ -103,6 +103,7 @@ The NPM package adheres to [SemVer 2.0.0](http://semver.org/spec/v2.0.0.html):
 
 - [HearthstoneJSON](https://github.com/HearthSim/hearthstonejson): Hearthstone datamining and API scripts
 - [Sunwell](https://github.com/HearthSim/Sunwell): Canvas-based high quality Hearthstone card renderer
+- [Hearthstone Cards for WordPress](https://github.com/flowdee/hearthstone-cards): WordPress plugin to display Hearthstone cards
 - [HearthCards.net](http://hearthcards.net/): Hearthstone card generator
 
 ## License
