@@ -28,8 +28,8 @@ open('images.json', 'w') do |w|
       base: 'https://raw.githubusercontent.com/schmich/hearthstone-card-images'
     },
     cards: {
-      pre: create_card_map('pre/*.png'),
-      rel: create_card_map('rel/*.png')
+      pre: create_card_map('pre/*.png').sort.to_h,
+      rel: create_card_map('rel/*.png').sort.to_h
     }
   }))
 end
