@@ -8,6 +8,6 @@
 - Update `images.json`: `make update-images`
 - Update `README.md` with new card images if desired
 - Commit: `git commit`
-- Tag release: `git tag -s x.y.z -m 'Release x.y.z.'`
+- Tag release: `v=$(jq .version -r package.json) git tag -s $v -m "Release $v."`
 - Push changes: `git push && git push --tags`
 - Publish package: `npm publish`
