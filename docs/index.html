@@ -116,7 +116,7 @@
       <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
       <div class="controls" v-show="cards.length > 0">
         <div class="zoom">
-          <p>{{ Math.ceil((height / 395) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="height" min="1" max="395">
+          <p>{{ Math.ceil((cardHeight / 518) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="cardHeight" min="1" max="518">
         </div>
         <p>{{ cards.length }} result{{ cards.length == 1 ? '' : 's' }}</p>
         <label><input type="checkbox" v-model="collectibleOnly"> Collectible only</label>
@@ -126,7 +126,7 @@
     <template v-if="cards.length">
       <div class="cards">
         <a v-for="cardId in cards" :href="imageBase + cardId + '.png'" target="_new">
-          <image-loader :src="imageBase + cardId + '.png'" :key="cardId" :style="{ width: ((height / 395) * 286) + 'px', height: height + 'px' }"></image-loader>
+          <image-loader :src="imageBase + cardId + '.png'" :key="cardId" :style="{ width: ((cardHeight / 518) * 375) + 'px', height: cardHeight + 'px' }"></image-loader>
         </a>
       </div>
     </template>
@@ -193,7 +193,7 @@
       el: '#app',
       data: {
         query: '',
-        height: 296,
+        cardHeight: 296,
         collectible: {},
         index: {},
         imageBase: '',
