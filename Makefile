@@ -1,8 +1,16 @@
-SHELL := /bin/bash
+update-cards:
+	dotnet run --project update update-cards
 
-update-images:
-	ruby create-images.rb
-	bash check.sh
-	mvimdiff <(git show master:images.json | jq -r .) <(cat images.json | jq -r .)
+download-images:
+	dotnet run --project update download-images
 
-.PHONY: update-images
+copy-images:
+	dotnet run --project update copy-images
+
+check-images:
+	dotnet run --project update check-images
+
+create-manifests:
+	dotnet run --project update create-manifests
+
+.PHONY: update-cards download-images copy-images check-images create-manifests

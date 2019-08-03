@@ -1,8 +1,8 @@
 {
   "name": "hearthstone-card-images",
-  "version": "4.12.3",
+  "version": "5.0.0",
   "description": "Hearthstone card images for use with HearthstoneJSON data.",
-  "main": "images.json",
+  "main": "manifest/all.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
