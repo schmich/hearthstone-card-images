@@ -6,12 +6,13 @@ Try [the demo application](https://schmich.github.io/hearthstone-card-images/) o
 
 All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
-![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/53756.png)
-![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/53496.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/53551.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/54261.png)
 
 ## Overview
 
-- The [official Hearthstone API](https://develop.battle.net/documentation/api-reference/hearthstone-game-data-api) and [HearthstoneJSON](https://hearthstonejson.com/) make Hearthstone card info available with unique DBF IDs for each card
+- The [official Hearthstone API](https://develop.battle.net/documentation/api-reference/hearthstone-game-data-api) and [HearthstoneJSON](https://hearthstonejson.com/) make Hearthstone JSON card info available
+- Each card has a DBF ID that uniquely identifies it
 - Use this repo to download and cache card images using one of the methods below
 - Use a card's DBF ID to serve its image from your site or app
 
@@ -64,14 +65,15 @@ function* cardImageHashes() {
 }
 
 for (let card of cardImageHashes()) {
-    // card.locale => en_US, pt_BR
-    // card.dbfId => 64 (Swipe)
-    // card.url => https://raw.githubusercontent.com/schmich/hearthstone-card-images/5.0.0/cards/en_US/64.png
-    // card.hash => ef4e301fff3ed65b9c21194e8b22d06c (MD5 hash of image contents)
-
-    // 1. Hash local file using MD5, card.locale, and card.dbfId
-    // 2. Compare local file hash to card.hash
-    // 3. If missing or different, download card.url locally
+    // Properties:
+    //   card.locale => en_US, pt_BR
+    //   card.dbfId => 64 (Swipe)
+    //   card.url => https://raw.githubusercontent.com/schmich/hearthstone-card-images/5.0.0/cards/en_US/64.png
+    //   card.hash => ef4e301fff3ed65b9c21194e8b22d06c (MD5 hash of image contents)
+    // Updating:
+    //   1. Hash local file using MD5, card.locale, and card.dbfId
+    //   2. Compare local file hash to card.hash
+    //   3. If missing or different, download card.url locally
 }
 ```
 
