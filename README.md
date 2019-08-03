@@ -75,6 +75,36 @@ for (let card of cardImageHashes()) {
 }
 ```
 
+## Image Size Optimization
+
+By default, images are 375x518 PNG format weighing around 100 KB each. A few things can be done to reduce the space and bandwidth needed for storage and transmission:
+
+### 1. Resize the images
+
+If you don't need large images, you can resize them using [ImageMagick](https://imagemagick.org/index.php) or many other image processing toolkits.
+
+`magick convert 64.png -resize 50% out.png`
+
+### 2. Use a PNG optimizer
+
+[pngquant](https://pngquant.org/) and [pngcrush](https://pmt.sourceforge.io/pngcrush/) optimize PNGs by removing extraneous metadata, trying multiple compression methods, and reducing the image's color palette by introducing dithering. Depending on your needs, the quality can be scaled to control the resulting file size.
+
+`pngquant 64.png --quality 25 --output out.png`
+
+### 3. Convert the images to JPG
+
+If you don't need transparency, you can convert the images to JPG to save significantly on space. You can also trade off between quality and file size depending on your needs.
+
+`magick convert 64.png -background white -flatten -quality 50% out.jpg`
+
+### 4. Convert the images to WebP
+
+The [WebP](https://en.wikipedia.org/wiki/WebP) image format has the benefits of JPG compression while also retaining the alpha transparency of PNG. However, this format [is not yet supported by all major browsers](https://caniuse.com/#search=webp). WebP has both lossless and lossy modes.
+
+`magick convert 64.png -define webp:lossless=true out.webp`
+
+`magick convert 64.png -quality 75% out.webp`
+
 ## Notes
 
 - Card images are under the [`cards`](cards) folder
