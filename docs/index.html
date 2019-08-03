@@ -205,17 +205,19 @@
             'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'giant'
           ],
           keywords: [
-            'taunt', 'divine shield', 'windfury', 'charge', 'stealth', 'poisonous', 'lifesteal',
-            'battlecry', 'deathrattle', 'spell damage', 'overload', 'combo', 'discover', 'adapt',
-            'inspire', 'freeze', 'choose one', 'silence', 'recruit', 'quest', 'immune', 'secret',
-            'echo', 'rush', 'start of game', 'magnetic', 'overkill'
+            'taunt', 'divine shield', 'windfury', 'mega-windfury', 'charge', 'stealth', 'poisonous', 'lifesteal',
+            'battlecry', 'deathrattle', 'spell damage', 'overload', 'counter', 'combo', 'discover', 'spare part',
+            'adapt', 'inspire', 'freeze', 'choose one', 'choose twice', 'silence', 'recruit', 'quest', 'immune',
+            'secret', 'echo', 'rush', 'start of game', 'magnetic', 'overkill', 'casts when drawn', 'passive',
+            'lackey', 'twinspell', 'reborn'
           ],
           effects: [
             'transform', 'draw', 'discard', 'destroy', 'deal damage', 'gain armor',
             'can\'t attack', 'can\'t be targeted', 'reduce cost', 'died this game', 'adjacent',
             'restore health', 'hero power', 'start of turn', 'end of turn', 'copy', 'return',
             'weapon', 'mana crystal', 'random', 'costs less', 'shuffle', 'summon from hand',
-            'summon from deck', 'holding a dragon', 'played elemental', 'coin'
+            'summon from deck', 'holding a dragon', 'played elemental', 'coin', 'control a secret',
+            'while damaged'
           ]
         }
       },
@@ -228,14 +230,14 @@
       async mounted() {
         let [cards, images] = await Promise.all([
           fetch('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').then(resp => resp.json()),
-          fetch('https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/images.json').then(resp => resp.json())
+          fetch('https://raw.githubusercontent.com/schmich/hearthstone-card-images/master/manifest/en_US.json').then(resp => resp.json())
         ]);
 
-        this.imageBase = `${images.config.base}/${images.config.version}/rel/`;
+        this.imageBase = `${images.config.base}/${images.config.version}/cards/en_US/`;
 
         let index = {};
         for (let card of cards) {
-          let hasImage = images.cards.rel[card.dbfId];
+          let hasImage = images.cards[card.dbfId];
           if (!hasImage) {
             continue;
           }
