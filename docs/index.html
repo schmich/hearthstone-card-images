@@ -2,9 +2,11 @@
 <html>
 <head>
   <title>Hearthstone Card Images</title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="search" href="opensearch.xml" type="application/opensearchdescription+xml" title="Hearthstone Card Images">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
   <style>
     [v-cloak] {
       display: none;
@@ -12,10 +14,10 @@
     body {
       font-family: sans-serif;
       text-align: center;
-      background: #fcfcff;
+      background: #f7f7f7;
     }
     header {
-      margin: 20px 0;
+      margin: 40px 0 20px 0;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -37,11 +39,13 @@
     .controls, button {
       margin: 20px 0 0 0;
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       font-size: 16px;
     }
     .controls > * {
-      margin: 0 20px;
+      margin: 0 20px 20px 20px;
     }
     .zoom {
       display: flex;
@@ -59,6 +63,7 @@
       color: #555;
     }
     .cards {
+      margin-top: 40px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -70,17 +75,18 @@
       align-items: center;
     }
     .help h1 {
-      padding: 0;
+      padding: 0 0 10px 0;
       color: #555;
       margin: 0 0 10px 0;
-      font-weight: bold;
-      font-size: 18px;
-      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 24px;
+      border-bottom: 1px solid #999;
+      width: 200px;
     }
-    .help p {
+    .help p, .help button {
       margin: 0 0 50px 0;
       padding: 0 30px;
-      font-size: 24px;
+      font-size: 20px;
       max-width: 800px;
       line-height: 170%;
     }
@@ -98,7 +104,7 @@
       outline: none;
     }
     a, button {
-      color: #1776b9;
+      color: #373;
       text-decoration: none;
       cursor: pointer;
     }
@@ -108,19 +114,16 @@
   </style>
 </head>
 <body>
-  <a href="https://github.com/schmich/hearthstone-card-images">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
-  </a>
   <div id="app" v-cloak>
     <header>
       <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
-      <div class="controls" v-show="cards.length > 0">
+      <div class="controls" v-show="query.length >= 3">
         <div class="zoom">
           <p>{{ Math.ceil((cardHeight / 518) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="cardHeight" min="1" max="518">
         </div>
         <p>{{ cards.length }} result{{ cards.length == 1 ? '' : 's' }}</p>
         <label><input type="checkbox" v-model="collectibleOnly"> Collectible only</label>
-        <button @click="clearQuery">Clear</button>
+        <button @click="resetQuery">Reset Search</button>
       </div>
     </header>
     <template v-if="cards.length">
@@ -145,7 +148,13 @@
     <template v-else-if="loaded">
       <div class="help">
         <p v-if="query.length < 3">Type at least 3 characters.</p>
-        <p v-else>No results.</p>
+        <p v-else>
+          No results.
+          <template v-if="collectibleOnly">
+            <br>
+            <button @click.prevent="collectibleOnly = false" v-if="collectibleOnly">Show uncollectible?</button>
+          </template>
+        </p>
       </div>
     </template>
   </div>
@@ -193,24 +202,23 @@
       el: '#app',
       data: {
         query: '',
-        cardHeight: 296,
-        collectible: {},
+        cardHeight: 259,
         index: {},
         imageBase: '',
         loaded: false,
         fromLocation: false,
         collectibleOnly: true,
         examples: {
-          minions: [
+          Tribes: [
             'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'giant'
           ],
-          keywords: [
+          Keywords: [
             'taunt', 'divine shield', 'windfury', 'charge', 'stealth', 'poisonous', 'lifesteal', 'battlecry',
             'deathrattle', 'spell damage', 'overload', 'counter', 'combo', 'discover', 'spare part', 'adapt',
             'inspire', 'freeze', 'choose one', 'silence', 'recruit', 'quest', 'immune', 'secret', 'echo',
             'rush', 'start of game', 'magnetic', 'overkill', 'casts when drawn', 'lackey', 'twinspell', 'reborn'
           ],
-          effects: [
+          Effects: [
             'transform', 'draw', 'discard', 'destroy', 'deal damage', 'gain armor',
             'can\'t attack', 'can\'t be targeted', 'reduce cost', 'died this game', 'adjacent',
             'restore health', 'hero power', 'start of turn', 'end of turn', 'copy', 'return',
@@ -234,28 +242,33 @@
 
         this.imageBase = `${images.config.base}/${images.config.version}/cards/en_US/`;
 
-        let index = {};
         for (let card of cards) {
           let hasImage = images.cards[card.dbfId];
           if (!hasImage) {
             continue;
           }
 
-          this.collectible[card.dbfId] = card.collectible;
-
-          let parts = [
+          card.key = [
             card.name,
             card.text,
             card.race,
             card.type,
             card.rarity
-          ].filter(p => p).map(p => normalize(p));
-
-          let key = parts.join(' ');
-          index[key] = index[key] || card.dbfId;
+          ].filter(p => p).map(p => normalize(p)).join(' ');
         }
 
-        this.index = index;
+        this.index = new Fuse(cards, {
+          shouldSort: false,
+          threshold: 0.1,
+          location: 0,
+          distance: 500,
+          tokenize: true,
+          matchAllTokens: true,
+          maxPatternLength: 32,
+          minMatchCharLength: 1,
+          keys: ['key']
+        });
+
         await this.setQueryFromLocation();
 
         window.onpopstate = () => {
@@ -270,7 +283,7 @@
           this.query = el.target.innerText;
           this.focusQuery();
         },
-        clearQuery() {
+        resetQuery() {
           this.query = '';
           this.focusQuery();
         },
@@ -304,42 +317,12 @@
             return [];
           }
 
-          let show = [];
-          let terms = this.query
-            .replace(/[.?*+^$[\]\\(){}|-]/g, "\\$&")
-            .trim()
-            .split(' ')
-            .map(t => normalize(t))
-            .map(t => new RegExp('\\b' + t));
-
-          for (let name in this.index) {
-            let match = true;
-            let minIndex = 0;
-            for (let term of terms) {
-              let termIndex = name.search(term);
-              if (termIndex < minIndex) {
-                match = false;
-                break;
-              }
-              minIndex = termIndex;
-            }
-
-            if (!match) {
-              continue;
-            }
-
-            let cardId = this.index[name];
-            if (this.collectibleOnly) {
-              match = match && this.collectible[cardId];
-            }
-
-            if (match) {
-              show.push(cardId);
-            }
+          let matches = this.index.search(normalize(this.query));
+          if (this.collectibleOnly) {
+            matches = matches.filter(card => card.collectible);
           }
 
-          // Sort by card ID descending.
-          return show.sort((p, q) => q - p);
+          return matches.map(card => card.dbfId).sort((p, q) => q - p);
         }
       },
       watch: {
