@@ -17,7 +17,7 @@
       background: #f7f7f7;
     }
     header {
-      margin: 40px 0 20px 0;
+      margin: 20px 0 20px 0;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -27,10 +27,10 @@
       font-size: 24px;
       width: 25%;
       min-width: 350px;
-      border-radius: 3px;
-      box-shadow: 0px 10px 7px -8px rgba(0, 0, 0, 0.7);
-      border: 1px solid #dde;
-      padding: 10px 20px;
+      border-radius: 33px;
+      box-shadow: 0px 3px 9px -4px rgba(0, 0, 0, 1);
+      padding: 15px 20px;
+      border: 0;
       outline: 0;
     }
     input::placeholder {
@@ -69,7 +69,7 @@
       justify-content: center;
     }
     .help {
-      margin-top: 80px;
+      margin-top: 60px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -116,7 +116,7 @@
 <body>
   <div id="app" v-cloak>
     <header>
-      <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
+      <input type="text" ref="q" name="query" v-debounce="750" v-model.lazy="query" spellcheck="false" autocomplete="off" :disabled="!loaded" :placeholder="loaded ? 'Search for Hearthstone cards' : 'Loading...'">
       <div class="controls" v-show="query.length >= 3">
         <div class="zoom">
           <p>{{ Math.ceil((cardHeight / 518) * 100) }}%</p> <input :disabled="!loaded" type="range" v-model="cardHeight" min="1" max="518">
@@ -152,7 +152,7 @@
           No results.
           <template v-if="collectibleOnly">
             <br>
-            <button @click.prevent="collectibleOnly = false" v-if="collectibleOnly">Show uncollectible?</button>
+            <button @click.prevent="collectibleOnly = false" v-if="collectibleOnly">Show uncollectible cards?</button>
           </template>
         </p>
       </div>
@@ -210,7 +210,7 @@
         collectibleOnly: true,
         examples: {
           Tribes: [
-            'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental', 'giant'
+            'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental'
           ],
           Keywords: [
             'taunt', 'divine shield', 'windfury', 'charge', 'stealth', 'poisonous', 'lifesteal', 'battlecry',
@@ -317,7 +317,7 @@
             return [];
           }
 
-          let matches = this.index.search(normalize(this.query));
+          let matches = this.index.search(normalize(this.query.trim()));
           if (this.collectibleOnly) {
             matches = matches.filter(card => card.collectible);
           }
