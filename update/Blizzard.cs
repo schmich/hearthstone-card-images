@@ -113,18 +113,18 @@ namespace Blizzard
                         request.Headers.Add("If-None-Match", etag);
                     }
 
-                    System.Console.WriteLine($"Fetch {uri}.");
+                    Console.WriteLine($"Fetch {uri}.");
                     using (var response = await _client.SendAsync(request)) {
                         if (response.StatusCode != HttpStatusCode.NotModified && response.StatusCode != HttpStatusCode.OK) {
                             throw new Exception($"Unexpected response status: {response.StatusCode}.");
                         }
 
                         if (response.StatusCode == HttpStatusCode.NotModified) {
-                            System.Console.WriteLine("304 Not Modified.");
+                            Console.WriteLine("304 Not Modified.");
                             return (false, "", "");
                         }
 
-                        System.Console.WriteLine("200 OK.");
+                        Console.WriteLine("200 OK.");
                         string newETag = response.Headers.ETag.Tag;
                         return (true, newETag, await response.Content.ReadAsStringAsync());
                     }
