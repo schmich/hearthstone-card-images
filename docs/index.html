@@ -63,7 +63,7 @@
       color: #555;
     }
     .cards {
-      margin-top: 40px;
+      margin-top: 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -159,6 +159,48 @@
     </template>
   </div>
   <script>
+    Vue.directive('lazy-load', (() => {
+      let observer = null;
+      let supported = ('IntersectionObserver' in window);
+
+      let loadImage = el => {
+        let src = el.getAttribute('lazy-src');
+        if (!src) {
+          return;
+        }
+
+        el.setAttribute('src', src);
+      };
+
+      return {
+        bind(el) {
+          if (!supported) {
+            // On unsupported browsers, load the image immediately.
+            loadImage(el);
+            return;
+          }
+
+          if (observer == null) {
+            observer = new IntersectionObserver(entries => {
+              for (let entry of entries) {
+                if (!entry.isIntersecting) {
+                  continue;
+                }
+
+                loadImage(entry.target);
+                observer.unobserve(entry.target);
+              }
+            }, { rootMargin: '100px' });
+          }
+
+          observer.observe(el);
+        },
+        unbind(el) {
+          observer.unobserve(el);
+        }
+      };
+    })());
+
     function debounce(fn, delay) {
       let timeoutId = null;
       return () => {
@@ -169,6 +211,7 @@
         }, delay);
       };
     }
+
     function debounceDirective(el, binding) {
       if (binding.value !== binding.oldValue) {
         el.oninput = debounce(_ => {
@@ -176,11 +219,13 @@
         }, +binding.value || 500);
       }
     }
+
     function queryParameter(location) {
       let params = {};
       location.search.slice(1).split('&').map(p => p.split('=')).forEach(p => params[p[0]] = p[1]);
       return decodeURIComponent(params.q || '');
     }
+
     function normalize(s) {
       return s
         .toLowerCase()
@@ -189,15 +234,17 @@
         .replace(/['\-]+/g, '')
         .replace(/[^0-9a-z\+%\/]+/g, ' ');
     }
+
     const imageLoader = {
       props: ['src'],
-      template: '<img :class="{ loading: loading }" @load="loading = false" :src="src"/>',
-      data: () => {
+      template: '<img :class="{ loading: loading }" @load="loading = false" v-lazy-load :lazy-src="src"/>',
+      data() {
         return {
           loading: true
         };
       }
     };
+
     const App = new Vue({
       el: '#app',
       data: {
@@ -208,6 +255,7 @@
         loaded: false,
         fromLocation: false,
         collectibleOnly: true,
+        isMobile: ('ontouchstart' in window),
         examples: {
           Tribes: [
             'dragon', 'pirate', 'mech', 'demon', 'murloc', 'beast', 'totem', 'elemental'
@@ -295,6 +343,9 @@
           });
         },
         async focusQuery() {
+          if (this.isMobile) {
+            return;
+          }
           await Vue.nextTick(() => {
             let input = this.$refs.q;
             input.focus();
