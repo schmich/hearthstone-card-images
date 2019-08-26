@@ -6,8 +6,8 @@ Try [the demo application](https://schmich.github.io/hearthstone-card-images/) o
 
 All card images and names copyright © Blizzard Entertainment, Inc. Hearthstone® is a registered trademark of Blizzard Entertainment, Inc. Hearthstone Card Images is not affiliated or associated with or endorsed by Hearthstone® or Blizzard Entertainment, Inc.
 
-![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/53551.png)
-![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/54261.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/51971.png)
+![](https://github.com/schmich/hearthstone-card-images/raw/master/cards/en_US/48101.png)
 
 ## Overview
 
