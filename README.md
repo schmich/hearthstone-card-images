@@ -1,3 +1,7 @@
+# Archival Notice
+
+**Due directly to the decisions and actions of Blizzard Entertainment, Inc., I will no longer be maintaining this project. The community is free to fork and continue it, but I do not wish to be involved.**
+
 # Hearthstone Card Images [![npm](https://img.shields.io/npm/v/hearthstone-card-images.svg)](https://www.npmjs.com/package/hearthstone-card-images)
 
 Hearthstone card images for all locales for use in conjunction with the [official Hearthstone API](https://develop.battle.net/documentation/api-reference/hearthstone-game-data-api) or [HearthstoneJSON data](https://hearthstonejson.com/).
